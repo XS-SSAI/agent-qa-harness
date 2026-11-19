@@ -1,13 +1,13 @@
 # agent-qa-harness
 
-An open-source harness that other builders can plug their own agents into and run, to check whether an agent actually
-does the work and can prove it. Each agent gets the same real tasks and the same limits. The output is scored by code
+An open-source test harness for builders: plug in your own AI agent, run it on real tasks, and see whether it actually
+did the work and can prove it. Each agent gets the same real tasks and the same limits. The output is scored by code
 checks against the source data (receipts), by planted faults the checks must catch (traps), and by model judges from a
 different model family than the agent (judges). An agent counts as reliable only after it passes every task 3 times
 in a row (pass^3), and even then only for the tasks it was tested on.
 
-The code checks catch invented listings, edited fields, skipped steps, false "done" claims and leaked secrets or
-private paths. The judges add a second opinion on quality and invented facts (see Limits).
+The code checks are built to catch invented listings, edited fields, skipped steps, false "done" claims and leaked
+secrets or private paths; each has a planted-fault test in `traps/`. The judges add a second opinion on quality and invented facts (see Limits).
 
 Python 3.11+, standard library only, no dependencies. Apache-2.0.
 
@@ -27,29 +27,34 @@ python3 -m aqh score --task tasks/listings-denver.json --file traps/planted-lie_
 
 On Windows, use `py` instead of `python3` in every command. `--qa default` runs only the code checks, so nothing
 leaves your machine. Each command prints PASS or FAIL with the failed checks, and writes `scorecard.md` into its `--out` folder (the
-harness creates it). In one folder, the latest score for each agent and task is the one shown.
+harness creates it). If you score into the same folder more than once, the scorecard shows only the latest result for each agent and task.
 
 ## Run a real agent
 
 ```bash
 python3 -m aqh agents                                            # what can plug in
-python3 -m aqh suite --agents claude-code --out results/my-run   # the 3-task vegan suite
+python3 -m aqh suite --agents claude-code --out results/my-run   # the vegan suite (2 tasks in a normal run)
 python3 -m aqh suite --agents codex --out results/my-run         # same folder = one shared scorecard
 ```
 
-Each CLI agent uses its own login or subscription. The judges need cheap model keys in env vars
-(`OPENROUTER_API_KEY`, `DEEPSEEK_API_KEY`, `GEMINI_API_KEY`; `PERPLEXITY_API_KEY` for web fact-checks). A full
-three-task run costs a few cents in judge API calls. The step-by-step guide, including chat apps you copy and paste into, is
+Each CLI agent uses its own login or subscription. A normal run uses one judge, so it needs one API key for a low-cost
+model, set as an environment variable: `OPENROUTER_API_KEY` (MiMo), or `DEEPSEEK_API_KEY` when the agent is itself a
+MiMo model. `+judge2` and `+judge3` add `DEEPSEEK_API_KEY` and `GEMINI_API_KEY`; `+factcheck` needs
+`PERPLEXITY_API_KEY` plus `DEEPSEEK_API_KEY` (to extract the claims). The vegan suite's third task (`methodology-page`) is held out and only runs with
+`--include-heldout`. A run costs a few cents in judge API calls. For a step-by-step guide, including chat apps you copy and paste into, see
 [RUN-IT-YOURSELF.md](RUN-IT-YOURSELF.md).
 
 ## Plug in your own agent
 
 Three ways, from least to most work:
 
-1. **Chat app or anything you can paste into.** `aqh manual export --task T --out prompt.txt`, paste the prompt, save the
-   reply, then `aqh manual score --task T --agent my-app --reply reply.md --qa default+judge --out results/my-run`.
+1. **Chat app or anything you can paste into.** `python3 -m aqh manual export --task T --out prompt.txt`, paste the
+   prompt, save the reply, then
+   `python3 -m aqh manual score --task T --agent my-app --reply reply.md --qa default+judge --out results/my-run`.
 2. **Any OpenAI-compatible API.** Set `AQH_BASE_URL`, `AQH_MODEL` and `AQH_KEY_ENV` (the *name* of the env var that holds
-   your key), then use `--agent openai-compat`.
+   your key), then run, for example,
+   `python3 -m aqh run --agent openai-compat --task tasks/listings-denver.json --qa default+judge --out results/my-run`
+   (or `--agents openai-compat` with `aqh suite`).
 3. **A CLI agent.** Add one small class to `aqh/adapters/cli_agents.py` and one line to the registry in
    `aqh/adapters/__init__.py`:
 
@@ -103,8 +108,9 @@ A scorecard cell reads like `PASS (22/22, judge 9.0)`: verdict, checks passed ou
 - `+judge`: a model judge from a different family than the agent. `+judge2`, `+judge3`: more judges, each from another
   family. `+factcheck`: Perplexity checks each factual claim on the web.
 
-`traps/` holds synthetic outputs with one planted fault each (invented listing, changed field, false "done", skipped
-review block, leaked path and key, false fact). Each must FAIL; a PASS means the harness missed it.
+`traps/` holds synthetic outputs, each with one kind of planted fault (invented listing, changed field, false "done", skipped
+review block, leaked path and key, false fact). Each must FAIL; a PASS means the harness missed it. The false-fact trap
+needs `+factcheck`. The `control__*` files are clean and should PASS.
 
 ## Tasks
 
@@ -143,9 +149,10 @@ the same for every agent) and `REVIEW.md` (short samples of each output to read 
 
 ## Safety defaults
 
-No permission-bypass flags on any agent. Keys are read from env vars only and never written or printed; error messages
-are scrubbed. A spend ledger with a hard cap (`AQH_CAP_USD`, default $5) stops the run. Only send public data to cheap
-or free models.
+No permission-bypass flags on any agent (Cursor and Grok run with `--trust`, which only trusts the temporary workspace
+for headless use). Keys are read from env vars only; the harness does not write or print them, and it hides key values in
+error messages. A spend ledger with a hard cap (`AQH_CAP_USD`, default $5) stops the run. Only send public data to cheap
+or free models; they may log it.
 
 ## Commands
 

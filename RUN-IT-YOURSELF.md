@@ -5,7 +5,7 @@ On Linux or macOS the commands are the same with `python3 -m aqh` instead of `py
 This runs the same real-work tests on each agent, then prints a scorecard you can compare: one row per agent, one column
 per task, PASS or FAIL, how many checks passed, and the judge score.
 
-The original test suite is fixed: `suites/real-work-v1.json`, three tasks on public data (Overture Maps vegan listings for Denver):
+The original test suite is fixed: `suites/real-work-v1.json`, three tasks on public data (Overture Maps vegan listings for Denver). Task 3 is held out, so a normal run scores tasks 1 and 2:
 1. **listings-denver**: clean and verify 10 vegan listings from the raw data. Scored by code: every field must match the source.
 2. **city-page-denver**: write a city page from the 10 verified listings, following the site profile, with the review block.
 3. **methodology-page**: write a "How we verify listings" page. Its facts are checked on the web by Perplexity.
@@ -20,16 +20,18 @@ Open **PowerShell** and go to the folder:
 cd agent-qa-harness   # wherever you cloned it
 py -m unittest discover -s tests
 ```
-You should see `OK` at the end. That proves the harness works on this PC (no internet needed, no cost).
+You should see `OK` at the end. That confirms the harness runs on this PC (no internet needed, no cost).
 
-The scoring uses three cheap outside models (a few cents per full run). Put their keys in this window. The key is typed
-hidden and is only kept for this PowerShell window:
+The scoring uses low-cost outside models (a few cents per run): one judge in a normal run, up to three judges with
+`+judge2` and `+judge3`, and Perplexity for `+factcheck`. Put the keys you need in this window. Your typing is hidden,
+and the key lasts only until you close this PowerShell window:
 
 ```powershell
 function Set-Key($name) { $s = Read-Host "$name" -AsSecureString; [Environment]::SetEnvironmentVariable($name, [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($s)), "Process") }
 Set-Key OPENROUTER_API_KEY     # MiMo judge
 Set-Key DEEPSEEK_API_KEY       # second judge and claim extraction
-Set-Key PERPLEXITY_API_KEY     # web fact-check
+Set-Key GEMINI_API_KEY         # third judge (+judge3)
+Set-Key PERPLEXITY_API_KEY     # web fact-check (+factcheck)
 ```
 
 ## 2. One command per agent
@@ -42,21 +44,21 @@ in the results folder, and a short `REVIEW.md` sits next to the scorecard so you
 Two tasks are held out of ordinary runs (`methodology-page`, `city-page-wedding-denver`).
 To score them as well, in a final run only, add `--include-heldout`.
 
-| Agent | Installed on this PC? | Command |
+| Agent | Install and sign in | Command |
 |---|---|---|
-| Claude Code | yes | `py -m aqh suite --agents claude-code --out results\my-run` |
-| OpenAI Codex CLI | yes | `py -m aqh suite --agents codex --out results\my-run` |
-| GitHub Copilot CLI | no: `npm install -g @github/copilot`, then run `copilot` once to sign in | `py -m aqh suite --agents copilot-cli --out results\my-run` |
-| Cursor CLI | no: install from cursor.com/cli, then `cursor-agent login` | `py -m aqh suite --agents cursor --out results\my-run` |
-| OpenCode | yes | `py -m aqh suite --agents opencode --out results\my-run` |
-| Grok Build CLI (`grok`) | no: official install `irm https://x.ai/cli/install.ps1 | iex`, then set `XAI_API_KEY` (this is the Grok Build CLI, not the Grok Bot app) | `py -m aqh suite --agents grok --out results\my-run` |
+| Claude Code | install Claude Code, then run `claude` once to sign in | `py -m aqh suite --agents claude-code --out results\my-run` |
+| OpenAI Codex CLI | `npm install -g @openai/codex`, then `codex login` | `py -m aqh suite --agents codex --out results\my-run` |
+| GitHub Copilot CLI | `npm install -g @github/copilot`, then run `copilot` once to sign in | `py -m aqh suite --agents copilot-cli --out results\my-run` |
+| Cursor CLI | install from cursor.com/cli, then `cursor-agent login` | `py -m aqh suite --agents cursor --out results\my-run` |
+| OpenCode | install OpenCode and set up a model provider | `py -m aqh suite --agents opencode --out results\my-run` |
+| Grok Build CLI (`grok`) | official install `irm https://x.ai/cli/install.ps1 | iex`, then set `XAI_API_KEY` (this is the Grok Build CLI, not the Grok Bot app) | `py -m aqh suite --agents grok --out results\my-run` |
 
-Optional extras: `hermes` and `nanobot` (if installed and on PATH), `gemini-cli` (installed).
+Optional extras: `hermes`, `nanobot` and `gemini-cli` (if installed and on PATH).
 To pick a model for an agent, set it first, for example `$env:AQH_CLAUDE_MODEL = "sonnet"`, `$env:AQH_OPENCODE_MODEL = "deepseek/deepseek-chat"`, or `$env:AQH_GROK_MODEL = "grok-4.7"` (the grok adapter default).
 
 ## 3. Chat apps: Microsoft Copilot, ChatGPT, Claude (copy and paste)
 
-For each of the three tasks:
+For each task:
 
 ```powershell
 py -m aqh manual export --task tasks\city-page-denver.json --out prompts\city-page-denver.txt
@@ -68,7 +70,7 @@ py -m aqh manual export --task tasks\city-page-denver.json --out prompts\city-pa
 ```powershell
 py -m aqh manual score --task tasks\city-page-denver.json --agent chatgpt-app --reply replies\chatgpt-city-page-denver.md --qa default+judge --out results\my-run
 ```
-Repeat with `tasks\listings-denver.json` (`--qa default+judge`) and `tasks\methodology-page.json` (`--qa default+factcheck`).
+Repeat with `tasks\listings-denver.json` (`--qa default+judge`). `tasks\methodology-page.json` (`--qa default+factcheck`) is held out: score it only in a final run.
 
 ## 4. Read the scorecard
 
