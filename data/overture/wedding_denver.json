@@ -1,0 +1,1001 @@
+[
+  {
+    "id": "2e259c8a-7e7c-4ff3-ad23-4c691ecc41a9",
+    "name": "Northgate Event Center & Taproom",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "3880 S Lowell Blvd",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80236-6164",
+    "country": "US",
+    "website": "http://northgateeventcenter.com",
+    "phone": "+17205321571",
+    "operating_status": "open",
+    "confidence": 0.8965000000000001,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "2383745b-8d6b-46f4-a482-83874a1bd39d",
+    "name": "Space 2435",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "2435 S Broadway",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80210-5008",
+    "country": "US",
+    "website": "http://www.space2435.com",
+    "phone": null,
+    "operating_status": "open",
+    "confidence": 0.75,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "7d1d8e29-a1ec-4d1d-8634-debf0a87b9f3",
+    "name": "Evans Memorial Chapel",
+    "basic_category": "event_or_party_service",
+    "taxonomy_primary": "party_and_event_planning",
+    "taxonomy_alternates": null,
+    "address": "2199 S Race St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80210",
+    "country": "US",
+    "website": "https://www.eventseeker.com/venue/820339-evans-memorial-chapel-denver",
+    "phone": "+13038714333",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "9b2cfef2-a936-40cf-a5af-0bb09731a408",
+    "name": "Evolve At Milehi Event Center",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "2827 W 9th Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80204-3748",
+    "country": "US",
+    "website": "http://www.evolvemilehi.com",
+    "phone": "17205811491",
+    "operating_status": "open",
+    "confidence": 0.75,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "1be0dd70-ff54-4624-8cd0-5fc100bf64f6",
+    "name": "Majestic Event Center",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "3181 W Alameda Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80219-2043",
+    "country": "US",
+    "website": "",
+    "phone": "13039552264",
+    "operating_status": "open",
+    "confidence": 0.75,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "dc90b594-7103-401a-8655-196e2e5e5a29",
+    "name": "Vertigo Event Center",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "2740 W Alameda Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80219-3002",
+    "country": "US",
+    "website": "",
+    "phone": "+17209071151",
+    "operating_status": "open",
+    "confidence": 0.55,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "8844a8c1-f9cf-4a34-80d7-67d5ea28aa4f",
+    "name": "Skyline Hall",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "auditorium",
+    "taxonomy_alternates": null,
+    "address": "158 S Federal Blvd",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80219-2013",
+    "country": "US",
+    "website": "www.yellowpages.com/denver-co/skyline-hall",
+    "phone": "+13039225323",
+    "operating_status": "open",
+    "confidence": 0.9722161889076233,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "5975ae2c-7f4c-42b5-ba69-991a00c90f9e",
+    "name": "El Merendero Event Center",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "3898 Morrison Rd",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80219-2622",
+    "country": "US",
+    "website": "",
+    "phone": null,
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "d23355c1-8a76-4fbf-8db8-e7e9128c02c8",
+    "name": "Diana's Palace",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "4359 W Florida Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80219-3735",
+    "country": "US",
+    "website": "",
+    "phone": "+13036697484",
+    "operating_status": "open",
+    "confidence": 0.55,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "58b83a75-ac3c-4b04-a890-9b65b5623c7a",
+    "name": "Modern Event Center",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "1550 S Federal Blvd  Ste D",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80219-4762",
+    "country": "US",
+    "website": "",
+    "phone": "17205143052",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "8d679460-0830-4c35-a910-52b70f0f0f70",
+    "name": "Evolution Tattoo Denver",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "1450 S Santa Fe Dr Unit 102",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80223",
+    "country": "US",
+    "website": "http://evolutiontattooofdenver.com/",
+    "phone": "3033308803",
+    "operating_status": "open",
+    "confidence": 0.9429197311401367,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "4877b23b-3495-455a-8376-c580d323a6eb",
+    "name": "Board Game Republic",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "900 W 1st Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80223",
+    "country": "US",
+    "website": "https://www.boardgamerepublicmenu.com/?utm_source=organic_bing&utm_medium=bing_pw",
+    "phone": "3039549165",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "b778e2fe-bbff-47ea-81c9-29f226e855b0",
+    "name": "Cornerstone Chapel",
+    "basic_category": "civic_organization",
+    "taxonomy_primary": "charity_organization",
+    "taxonomy_alternates": null,
+    "address": "1325 W 11th Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80204-3432",
+    "country": "US",
+    "website": "https://www.cornerstonedenver.com",
+    "phone": "17203204613",
+    "operating_status": "open",
+    "confidence": 0.95,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "d822c79b-daaf-4b1b-8d78-1ff41bc2ad66",
+    "name": "Urban Space Unlimited",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "864 Santa Fe Dr",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80204-4345",
+    "country": "US",
+    "website": "",
+    "phone": "7205151061",
+    "operating_status": "open",
+    "confidence": 0.95,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "e6d80f9a-68d7-43f4-8138-50f86de57627",
+    "name": "Crazy Mountain Brewery Taproom (this location closed)",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "471 Kalamath St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80204",
+    "country": "US",
+    "website": "https://crazymountainbrewery.com/",
+    "phone": "3038323872",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "f517ba7b-f981-4e46-9eaf-4bab178f14de",
+    "name": "Davinci Meeting Rooms",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "445 N Broadway",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80203",
+    "country": "US",
+    "website": "https://www.davincimeetingrooms.com/colorado/denver-meeting-rooms/2005",
+    "phone": "7205313946",
+    "operating_status": null,
+    "confidence": 0.85,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "cd89b2f1-b049-481c-9b2f-949a5226fb97",
+    "name": "Mi Casa Resource Center",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "360 Acoma St # 11 Denver",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80223",
+    "country": "US",
+    "website": "http://www.micasaresourcecenter.org",
+    "phone": "(303) 573-1302",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "da584c4c-5c15-4270-be12-1139d8c0584e",
+    "name": "The Ambassador",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": null,
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80203",
+    "country": "US",
+    "website": "https://cornerstoneapartments.com/our-buildings/the-ambassador",
+    "phone": "(303) 832-5700",
+    "operating_status": null,
+    "confidence": 0.77,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "ff017366-07cd-48ec-a0aa-a4eb10c9c8e7",
+    "name": "Venue 221",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "221 Detroit St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80206-4806",
+    "country": "US",
+    "website": "http://www.venue221.com",
+    "phone": "+17209249302",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "6f298fd4-5b0f-4126-8d18-2175418cd098",
+    "name": "Washington Park Chapel",
+    "basic_category": "christian_place_of_worship",
+    "taxonomy_primary": "christian_place_of_worship",
+    "taxonomy_alternates": null,
+    "address": "1001 S. Pearl",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80209",
+    "country": "US",
+    "website": "http://www.itsgood.org",
+    "phone": "(303) 777-2100",
+    "operating_status": null,
+    "confidence": 0.77,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "1915c326-0364-44f4-b6df-29342999f8b6",
+    "name": "The Christian Community Michael-sophia Chapel",
+    "basic_category": "christian_place_of_worship",
+    "taxonomy_primary": "christian_place_of_worship",
+    "taxonomy_alternates": null,
+    "address": "2180 S Madison St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80210-4919",
+    "country": "US",
+    "website": "christiancommunitycolorado.org",
+    "phone": "17209544942",
+    "operating_status": "open",
+    "confidence": 0.65,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "403a5ec1-a24d-42c2-bcc1-db497c9406f1",
+    "name": "Tradeshow Technologies",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "3801 E Florida Ave Ste 400",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80210-2543",
+    "country": "US",
+    "website": "https://www.tradeshowtechnologies.com",
+    "phone": "+13037588622",
+    "operating_status": "open",
+    "confidence": 0.55,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "01656ac1-2738-4297-8951-652f77a267fd",
+    "name": "Luna Park Events",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "700 Colorado Blvd # 726",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80206-4084",
+    "country": "US",
+    "website": "lunaparkevents.com",
+    "phone": "+15125851735",
+    "operating_status": "open",
+    "confidence": 0.55,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "b08b3ae2-1fbb-4474-8ea7-04de457062bd",
+    "name": "Fairfield Inn & Suites Denver Cherry Creek",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "1680 S Colorado Blvd",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80222",
+    "country": "US",
+    "website": "",
+    "phone": "3036912223",
+    "operating_status": "open",
+    "confidence": 0.9385141134262085,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "bad66e57-ade3-40db-a70a-c77293d48cbb",
+    "name": "Davinci Meeting Rooms",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "2000 S Colorado Blvd 1 Ste 2000",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80222",
+    "country": "US",
+    "website": "https://www.davincimeetingrooms.com/colorado/denver-meeting-rooms/2206",
+    "phone": "3039527691",
+    "operating_status": null,
+    "confidence": 0.85,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "e3376570-5a24-41f9-a5c8-c2a1dbeb1371",
+    "name": "Wellshire Event Center",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "event_venue",
+    "taxonomy_alternates": null,
+    "address": "3333 S Colorado Blvd",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80222-6603",
+    "country": "US",
+    "website": "http://www.wellshireinn.com",
+    "phone": "13037593333",
+    "operating_status": "open",
+    "confidence": 0.9964651023447514,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "68fc0e93-e970-4dc0-aea8-e2870cee1bf3",
+    "name": "Denver Calvary Chapel",
+    "basic_category": "christian_place_of_worship",
+    "taxonomy_primary": "christian_place_of_worship",
+    "taxonomy_alternates": null,
+    "address": "2400 S Colorado Blvd",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80222",
+    "country": "US",
+    "website": "http://www.denvercalvary.org/",
+    "phone": "+17204431027",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "2906b7c3-e4e6-4705-b34f-1d70ab6ed5e2",
+    "name": "Greg Bennett - The Growth Coach Denver Tech Center",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "auditorium",
+    "taxonomy_alternates": null,
+    "address": "4695 S Monaco St Ste 200",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80237",
+    "country": "US",
+    "website": "http://thegrowthcoachdenvertech.com",
+    "phone": "(720) 370-6424",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "f5fb801b-73eb-4c36-9d48-ff2246ca207b",
+    "name": "Global Travel Network",
+    "basic_category": "event_venue",
+    "taxonomy_primary": "auditorium",
+    "taxonomy_alternates": null,
+    "address": "1720 S Bellaire St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80222",
+    "country": "US",
+    "website": "http://www.globaltravelnetwork.com",
+    "phone": "(303) 759-2400",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "98587904-fb8e-4d15-be9c-7fba847f92f3",
+    "name": "Denver Calvary Chapel",
+    "basic_category": "home_service",
+    "taxonomy_primary": "interior_design",
+    "taxonomy_alternates": null,
+    "address": "451 Clermont St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80220-5019",
+    "country": "US",
+    "website": "https://denvercalvary.org",
+    "phone": null,
+    "operating_status": "open",
+    "confidence": 0.95,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "venue"
+    ]
+  },
+  {
+    "id": "cfee58c8-8706-41e9-93d0-2a951c23a6e7",
+    "name": "BirdReel",
+    "basic_category": "electronics_store",
+    "taxonomy_primary": "camera_and_photography_store",
+    "taxonomy_alternates": null,
+    "address": "2740 S Wadsworth Blvd",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80227",
+    "country": "US",
+    "website": "http://www.birdreel.com/",
+    "phone": "+18334597770",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "buckets": [
+      "photographer"
+    ]
+  },
+  {
+    "id": "253a3e7d-aac1-4212-b542-104fe31de6be",
+    "name": "Residential Services",
+    "basic_category": "electronics_store",
+    "taxonomy_primary": "camera_and_photography_store",
+    "taxonomy_alternates": null,
+    "address": "2418 W Evans Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80219-5504",
+    "country": "US",
+    "website": "",
+    "phone": "+17208848920",
+    "operating_status": "open",
+    "confidence": 0.55,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "photographer"
+    ]
+  },
+  {
+    "id": "613ca0bc-03f0-4b94-a880-f39423778cd5",
+    "name": "Tony Ciccone Photography",
+    "basic_category": "electronics_store",
+    "taxonomy_primary": "camera_and_photography_store",
+    "taxonomy_alternates": null,
+    "address": "3232 S. Newcombe St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80227",
+    "country": "US",
+    "website": "https://www.tonycicconephotography.com",
+    "phone": null,
+    "operating_status": null,
+    "confidence": 0.77,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "buckets": [
+      "photographer"
+    ]
+  },
+  {
+    "id": "d44e552f-9311-442a-84e9-95e8c7075cc9",
+    "name": "Nosh Catering",
+    "basic_category": "event_or_party_service",
+    "taxonomy_primary": "caterer",
+    "taxonomy_alternates": null,
+    "address": "530 Knox Ct  Ste 110",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80204-4760",
+    "country": "US",
+    "website": "https://www.noshcater.com",
+    "phone": "13034264534",
+    "operating_status": "open",
+    "confidence": 0.9838384985923767,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "buckets": [
+      "caterer"
+    ]
+  },
+  {
+    "id": "ebd0fb5b-1db2-4359-95d1-fedcf87716eb",
+    "name": "TASTE 5 Catering | Personal Chef",
+    "basic_category": "event_or_party_service",
+    "taxonomy_primary": "caterer",
+    "taxonomy_alternates": null,
+    "address": "3604 S Poplar St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80237",
+    "country": "US",
+    "website": "http://www.taste5catering.com/",
+    "phone": "9703761084",
+    "operating_status": null,
+    "confidence": 0.85,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "buckets": [
+      "caterer"
+    ]
+  },
+  {
+    "id": "82a365be-ca32-4e07-9eab-b26c13efb41b",
+    "name": "Lehrer's Flowers",
+    "basic_category": "flowers_and_gifts_store",
+    "taxonomy_primary": "florist",
+    "taxonomy_alternates": null,
+    "address": "2100 W Mississippi Ave Ste 200",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80110",
+    "country": "US",
+    "website": "https://www.thinkflowers.com/",
+    "phone": "3034551234",
+    "operating_status": "open",
+    "confidence": 0.9302752017974854,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "buckets": [
+      "florist"
+    ]
+  },
+  {
+    "id": "b834f814-35f0-4190-806f-a7f8d6ad02ca",
+    "name": "Venus Flowers and Gifts",
+    "basic_category": "flowers_and_gifts_store",
+    "taxonomy_primary": "florist",
+    "taxonomy_alternates": null,
+    "address": "924 S Sheridan Blvd",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80226",
+    "country": "US",
+    "website": "",
+    "phone": "3039227611",
+    "operating_status": null,
+    "confidence": 0.9655,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "buckets": [
+      "florist"
+    ]
+  }
+]

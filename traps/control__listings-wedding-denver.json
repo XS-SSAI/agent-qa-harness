@@ -1,0 +1,122 @@
+[
+ {
+  "id": "e3376570-5a24-41f9-a5c8-c2a1dbeb1371",
+  "name": "Wellshire Event Center",
+  "taxonomy_primary": "event_venue",
+  "address": "3333 S Colorado Blvd",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80222-6603",
+  "website": "http://www.wellshireinn.com",
+  "phone": "13037593333",
+  "check_before_publish": "Confirm on the business's own site that it hosts weddings, and check current hours and packages."
+ },
+ {
+  "id": "d822c79b-daaf-4b1b-8d78-1ff41bc2ad66",
+  "name": "Urban Space Unlimited",
+  "taxonomy_primary": "event_venue",
+  "address": "864 Santa Fe Dr",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80204-4345",
+  "website": "",
+  "phone": "7205151061",
+  "check_before_publish": "Confirm on the business's own site that it hosts weddings, and check current hours and packages."
+ },
+ {
+  "id": "8d679460-0830-4c35-a910-52b70f0f0f70",
+  "name": "Evolution Tattoo Denver",
+  "taxonomy_primary": "event_venue",
+  "address": "1450 S Santa Fe Dr Unit 102",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80223",
+  "website": "http://evolutiontattooofdenver.com/",
+  "phone": "3033308803",
+  "check_before_publish": "Confirm on the business's own site whether this tattoo studio actually hosts weddings, and check hours and packages."
+ },
+ {
+  "id": "b08b3ae2-1fbb-4474-8ea7-04de457062bd",
+  "name": "Fairfield Inn & Suites Denver Cherry Creek",
+  "taxonomy_primary": "event_venue",
+  "address": "1680 S Colorado Blvd",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80222",
+  "website": "",
+  "phone": "3036912223",
+  "check_before_publish": "Confirm on the hotel's own site whether this location hosts weddings, and check hours and packages."
+ },
+ {
+  "id": "4877b23b-3495-455a-8376-c580d323a6eb",
+  "name": "Board Game Republic",
+  "taxonomy_primary": "event_venue",
+  "address": "900 W 1st Ave",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80223",
+  "website": "https://www.boardgamerepublicmenu.com/?utm_source=organic_bing&utm_medium=bing_pw",
+  "phone": "3039549165",
+  "check_before_publish": "Confirm on the business's own site whether this board-game cafe actually hosts weddings, and check hours and packages."
+ },
+ {
+  "id": "e6d80f9a-68d7-43f4-8138-50f86de57627",
+  "name": "Crazy Mountain Brewery Taproom (this location closed)",
+  "taxonomy_primary": "event_venue",
+  "address": "471 Kalamath St",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80204",
+  "website": "https://crazymountainbrewery.com/",
+  "phone": "3038323872",
+  "check_before_publish": "The source name says this location is closed; confirm current operating status and whether it hosts weddings on the business's own site."
+ },
+ {
+  "id": "5975ae2c-7f4c-42b5-ba69-991a00c90f9e",
+  "name": "El Merendero Event Center",
+  "taxonomy_primary": "event_venue",
+  "address": "3898 Morrison Rd",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80219-2622",
+  "website": "",
+  "phone": null,
+  "check_before_publish": "Confirm on the business's own site that it hosts weddings, and check current hours and packages."
+ },
+ {
+  "id": "cd89b2f1-b049-481c-9b2f-949a5226fb97",
+  "name": "Mi Casa Resource Center",
+  "taxonomy_primary": "event_venue",
+  "address": "360 Acoma St # 11 Denver",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80223",
+  "website": "http://www.micasaresourcecenter.org",
+  "phone": "(303) 573-1302",
+  "check_before_publish": "Confirm on the organisation's own site whether this resource centre actually hosts weddings, and check hours and packages."
+ },
+ {
+  "id": "58b83a75-ac3c-4b04-a890-9b65b5623c7a",
+  "name": "Modern Event Center",
+  "taxonomy_primary": "event_venue",
+  "address": "1550 S Federal Blvd  Ste D",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80219-4762",
+  "website": "",
+  "phone": "17205143052",
+  "check_before_publish": "Confirm on the business's own site that it hosts weddings, and check current hours and packages."
+ },
+ {
+  "id": "ff017366-07cd-48ec-a0aa-a4eb10c9c8e7",
+  "name": "Venue 221",
+  "taxonomy_primary": "event_venue",
+  "address": "221 Detroit St",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80206-4806",
+  "website": "http://www.venue221.com",
+  "phone": "+17209249302",
+  "check_before_publish": "Confirm on the business's own site that it hosts weddings, and check current hours and packages."
+ }
+]

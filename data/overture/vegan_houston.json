@@ -1,0 +1,1769 @@
+[
+  {
+    "id": "0d3918df-93da-4546-9f36-3297b007e0ed",
+    "name": "Huong Sen",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "12345 Bellaire Blvd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77072",
+    "country": "US",
+    "website": "",
+    "phone": "+18326724764",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "eea3c008-bf95-46eb-807a-645244b4d507",
+    "name": "Yu Hua Zhai Vegan Co-op",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "chinese_restaurant",
+    "taxonomy_alternates": null,
+    "address": "12345 Bellaire Blvd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77072-2585",
+    "country": "US",
+    "website": "https://sites.google.com/a/firstpureland.org/yhzhouston-org/home",
+    "phone": "+18325903735",
+    "operating_status": null,
+    "confidence": 0.5935083627700806,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "fc271cf6-ccef-4746-bc22-692eb50ba8ec",
+    "name": "Tu\u1ec7 T\u00e2m",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "11360 Bellaire Blvd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77072-2531",
+    "country": "US",
+    "website": "https://www.instagram.com/tue.tamhtx/",
+    "phone": "+13464092343",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "202d7e4e-8772-44a3-8bc9-59bfea04809d",
+    "name": "Quan Yin Vegan Restaurant",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "10804 Bellaire Blvd Ste E",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77072",
+    "country": "US",
+    "website": "https://quanyinvegan.com/",
+    "phone": "+12814987890",
+    "operating_status": "open",
+    "confidence": 0.9827063083648682,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "bbbb2f1b-e759-41c0-b1c4-8ac92373cedf",
+    "name": "Chef Kenny's Asian Vegan Cuisine",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "6128 Wilcrest Dr",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77072",
+    "country": "US",
+    "website": "http://www.vegck.com/",
+    "phone": "+12816177983",
+    "operating_status": null,
+    "confidence": 0.20223383605480194,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "de7298ba-a9ef-477b-bb93-b6832dbe30b7",
+    "name": "Vegan N' Out",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "10887 S Wilcrest Dr",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77099-3520",
+    "country": "US",
+    "website": "",
+    "phone": "12488052323",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "8d6d5c96-cc10-422b-b476-1668bf48f74d",
+    "name": "Garden Kitchen",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "10480 S Main St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77025",
+    "country": "US",
+    "website": "http://www.gardenkitchenfoods.com/",
+    "phone": "+18323507534",
+    "operating_status": "open",
+    "confidence": 0.9825379252433777,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "778ba18e-80b8-4993-9b36-d5bbc399c33c",
+    "name": "Delischa",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "9908 Beechnut St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77036-6410",
+    "country": "US",
+    "website": "http://www.delischasauces.com/",
+    "phone": "+17137777474",
+    "operating_status": null,
+    "confidence": 0.5409494638442993,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "68090ad5-678b-4016-9a2d-de7331349ceb",
+    "name": "Patu's Thai Cuisine",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2420 Rice Blvd #B",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77005",
+    "country": "US",
+    "website": "http://www.patushop.com/",
+    "phone": "(713) 528-6998",
+    "operating_status": null,
+    "confidence": 0.77,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "122a9762-2bbe-46ac-b8a0-58dd910e07b0",
+    "name": "Vegan Bee",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "restaurant",
+    "taxonomy_alternates": null,
+    "address": "2022 Wilcrest Dr",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77042",
+    "country": "US",
+    "website": "https://www.veganbeechinesefood.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search",
+    "phone": "7017218868",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "e78c9f62-b59d-406a-aebb-ccaa876a5eb4",
+    "name": "Mona Fresh Italian",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "19355 Katy Fwy #500",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77094",
+    "country": "US",
+    "website": "http://monaitalianfood.com/",
+    "phone": "8323214830",
+    "operating_status": null,
+    "confidence": 0.9848563075065613,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "df4e90e7-1503-478a-8361-502637430815",
+    "name": "Cascabel",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1415 Murray Bay St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77080-7615",
+    "country": "US",
+    "website": "",
+    "phone": "17139999551",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "431cf4af-a26a-4c6e-bd3b-ee3b09fe5c80",
+    "name": "Flower Child",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "600 W Sam Houston Pkwy N Ste 600",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77024",
+    "country": "US",
+    "website": "https://www.iamaflowerchild.com/locations/flower-child-houston-town-country/",
+    "phone": "+12818000044",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "08a9af04-728d-4521-a373-100f527a8ec0",
+    "name": "Mornin' Chow",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "5832 Fairdale Ln",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77057",
+    "country": "US",
+    "website": "http://www.morninchow.com/",
+    "phone": "+17138515808",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "e6dd6d35-8ca4-4e74-a1be-fbcae638762d",
+    "name": "Apetito Vegan Grill",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "5832 Fairdale Ln",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77057-6305",
+    "country": "US",
+    "website": "https://linktr.ee/fade2vegan",
+    "phone": "+12817984534",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "27a129d8-d758-44fd-8413-4b4a926ca568",
+    "name": "Clean Vegg Kitchen",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "5832 Fairdale Ln",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77057",
+    "country": "US",
+    "website": "https://www.cleanvegg.com",
+    "phone": "(832) 544-1134",
+    "operating_status": "open",
+    "confidence": 0.9302752017974854,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "e7d5fc7a-1879-4f52-a223-23937ad9e456",
+    "name": "Vegan Luxe Esthetics",
+    "basic_category": "wellness_service",
+    "taxonomy_primary": "spa",
+    "taxonomy_alternates": null,
+    "address": null,
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": null,
+    "country": "US",
+    "website": "http://www.veganluxebrands.com/",
+    "phone": null,
+    "operating_status": null,
+    "confidence": 0.5671461820602417,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "69d4a665-f6b9-4f7c-822b-48d06c711be7",
+    "name": "Just Falafel Vegan Cafe",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2111 W Loop S Ste 100",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77027",
+    "country": "US",
+    "website": "http://www.jfvegancafe.com/",
+    "phone": "+17135051044",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "673ffea4-305e-49f5-b2e7-acd0f59a2c08",
+    "name": "Pepper Tree Veggie Cuisine",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "3821 Richmond Ave",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77027-5801",
+    "country": "US",
+    "website": "ilovepeppertree.com",
+    "phone": "7136219488",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "de9f84ea-61f2-4600-93a8-00e60a3959a3",
+    "name": "Trendy Vegan",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "3821 Richmond Ave",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77027-5801",
+    "country": "US",
+    "website": "http://trendyhouston.com/",
+    "phone": "+17136219488",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "afa9f6be-e76f-4b65-af52-4352c7f3769d",
+    "name": "Field of Greens",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2320 W Alabama St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77098",
+    "country": "US",
+    "website": "http://www.fieldofgreenscuisine.com/",
+    "phone": "(713) 533-0029",
+    "operating_status": null,
+    "confidence": 0.77,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "fa5d12c8-e441-405e-8b49-b8efe3b5ddc1",
+    "name": "A Rare Poe Boy",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "7800 Amelia Rd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77055-1604",
+    "country": "US",
+    "website": "",
+    "phone": "5047771220",
+    "operating_status": "open",
+    "confidence": 0.95,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "0ff023f2-5408-4b4f-8034-c0b7d61331e6",
+    "name": "The Vegan Sweet Spot",
+    "basic_category": "casual_eatery",
+    "taxonomy_primary": "bakery",
+    "taxonomy_alternates": null,
+    "address": "3042 Antoine Dr",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77092-7053",
+    "country": "US",
+    "website": "https://www.thevegansweetspot.com",
+    "phone": "8329300496",
+    "operating_status": "open",
+    "confidence": 0.95,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "7c4b0502-3a63-4918-8abd-878b30457d3f",
+    "name": "Local Foods",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "5740 San Felipe St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77057-0003",
+    "country": "US",
+    "website": "http://houstonlocalfoods.com/",
+    "phone": "+17137890642",
+    "operating_status": "open",
+    "confidence": 0.9577103853225708,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "c935c4c1-1d72-4d1d-99b3-f5cf073a95ee",
+    "name": "Pythagoras",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1710 W 18th St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77008",
+    "country": "US",
+    "website": "http://www.Pythagoras.Space/",
+    "phone": "+18324617022",
+    "operating_status": null,
+    "confidence": 0.9431028962135315,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "0af8e0f0-dc55-4510-8d46-d460dde90b96",
+    "name": "Govinda's Vegetarian Cuisine",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1320 W 34th St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77018",
+    "country": "US",
+    "website": "http://govindashou.com/",
+    "phone": "+18328319951",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "74a39bac-698d-410c-a8b5-8f60fe2ce7ef",
+    "name": "Sunshine's Vegetarian Deli and Health Food Store",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "3102 Old Spanish Trl",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77054",
+    "country": "US",
+    "website": "http://www.sunshineckls.com",
+    "phone": "+17136432884",
+    "operating_status": "open",
+    "confidence": 0.9647542834281921,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "567b1d0a-f13c-4152-b9a4-08e9823ab88e",
+    "name": "Vegan Bee",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "restaurant",
+    "taxonomy_alternates": null,
+    "address": "K23, 2616 Blodgett St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004",
+    "country": "US",
+    "website": "https://www.veganbeeinhouston.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search",
+    "phone": "2347700487",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "88378ae2-1776-49bc-8f15-8a32e007a50d",
+    "name": "Dollies Vegan Bistro",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2616 Blodgett St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004",
+    "country": "US",
+    "website": "https://www.dolliesveganbistro.com/?l=en-US",
+    "phone": "",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "96f70bad-005c-4062-bcae-d6b30e47e4cc",
+    "name": "Meek's Vegan Pizza",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "pizza_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2616 Blodgett St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004-5316",
+    "country": "US",
+    "website": "https://www.meeksveganpizza.com",
+    "phone": null,
+    "operating_status": "open",
+    "confidence": 0.55,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "124da317-8f71-4f9e-97d4-18de0236c4c1",
+    "name": "Sauce Co. Shoppette",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "4300 S Wayside Dr Suite 102",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77087",
+    "country": "US",
+    "website": "",
+    "phone": "+18326498286",
+    "operating_status": "open",
+    "confidence": 0.9695749300718307,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "aacb654a-c0e8-4f7b-86ad-17f3fa06d4ab",
+    "name": "Sunshine Health Food Store and Deli",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "4915 Martin Luther King Blvd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77021",
+    "country": "US",
+    "website": "http://sunshineckls.com",
+    "phone": null,
+    "operating_status": null,
+    "confidence": 0.77,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "48c9d51f-7947-4202-a6e0-50b9f4f227ea",
+    "name": "NOKturne Juice Bar & World Food",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "17062 Saturn Ln",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77058-2334",
+    "country": "US",
+    "website": "http://nokturne.world/",
+    "phone": "+18322245983",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "5751a57d-dfb6-462f-88fe-60824e15c5a6",
+    "name": "The Vegan Sushi Spot",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "sushi_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1701 California St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77006",
+    "country": "US",
+    "website": "https://tvsshtx.com/",
+    "phone": "+12815621460",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "66f24753-efeb-40fb-b05f-2fc5740db4a7",
+    "name": "Bloom Foods (food Truck)",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1701 Commonwealth St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77006-1053",
+    "country": "US",
+    "website": "eatbloom.com",
+    "phone": "2813015524",
+    "operating_status": "open",
+    "confidence": 0.9309623837471008,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "333645bc-0233-4725-9a0c-d9dbde4e9613",
+    "name": "Pat Greer's Kitchen",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "412 W Clay St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77019",
+    "country": "US",
+    "website": "http://www.patgreerskitchen.com/",
+    "phone": "+17138070101",
+    "operating_status": "open",
+    "confidence": 0.9640272259712219,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "fc15e6d9-020d-4736-8767-50dbc5b8764c",
+    "name": "Herban Frequency",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2404 Montrose Blvd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77006-1292",
+    "country": "US",
+    "website": "http://www.herbanfrequency.com",
+    "phone": "7133389506",
+    "operating_status": "open",
+    "confidence": 0.75,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "d2271c0c-032b-44b4-996e-b24197198188",
+    "name": "The Vegan Vybe",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1001 Westheimer Rd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77006",
+    "country": "US",
+    "website": "",
+    "phone": "+18327781703",
+    "operating_status": null,
+    "confidence": 0.8474240303039551,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "87503a3f-a155-4836-a257-a0bcf93f6ba4",
+    "name": "Radical Eats",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "507 Westheimer Rd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77006",
+    "country": "US",
+    "website": "http://www.radicaleats.com",
+    "phone": "(713) 697-8719",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "e800cce0-95cf-433a-8c4e-82183efdc22e",
+    "name": "Korny Vibes",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "403 Westheimer Rd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77006",
+    "country": "US",
+    "website": "https://www.kornyvibeshtx.com/",
+    "phone": "+17134854609",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "e6a19730-87c8-4a39-ab35-aa4c8a450dd5",
+    "name": "Mo' Better Brews",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1201 Southmore Blvd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004-5825",
+    "country": "US",
+    "website": "https://www.mobetterbrews.com",
+    "phone": "+18327404297",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "9d3c7503-ca37-4434-ab82-26fa7b869942",
+    "name": "green seed",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "4102 Fannin St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004",
+    "country": "US",
+    "website": "http://www.greenseedvegan.com/",
+    "phone": "+18443658346",
+    "operating_status": "open",
+    "confidence": 0.983472466468811,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "901e73a4-ed6f-4b5c-9f8c-73c32ee41dc1",
+    "name": "mantra",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "4104 Fannin St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004",
+    "country": "US",
+    "website": "http://mantrakitchen.com/",
+    "phone": "+17139741111",
+    "operating_status": "open",
+    "confidence": 0.9998072409033776,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "9439a9b3-f9c1-47f0-91f4-e5ffdc1b7816",
+    "name": "Vegan Society of PEACE",
+    "basic_category": "social_or_community_service",
+    "taxonomy_primary": "social_or_community_service",
+    "taxonomy_alternates": null,
+    "address": null,
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": null,
+    "country": "US",
+    "website": "http://www.vegansocietyofpeace.org/",
+    "phone": null,
+    "operating_status": null,
+    "confidence": 0.1412549763917923,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "e893485e-d7e8-4011-a33c-ef8d65b85b2c",
+    "name": "Meek's Vegan Pizza",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "pizza_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1113 Holman St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004",
+    "country": "US",
+    "website": "http://meeksveganpizza.com/",
+    "phone": "+12818413502",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "3678ac73-c686-4c97-834d-1cf43418c6f9",
+    "name": "Green Seed Vegan",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "4320 Almeda Rd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004",
+    "country": "US",
+    "website": "http://www.greenseedvegan.com",
+    "phone": "(844) 365-8346",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "230211a7-01fe-4f89-9f07-52d02da691f5",
+    "name": "Houston Sauce Pit",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "4906 Almeda Rd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004-5658",
+    "country": "US",
+    "website": "",
+    "phone": "+17343416859",
+    "operating_status": "open",
+    "confidence": 0.9368733763694763,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "7c07e3a1-dbdc-4ed6-9729-1d3584053c50",
+    "name": "Vegan Yoni Luxe",
+    "basic_category": null,
+    "taxonomy_primary": null,
+    "taxonomy_alternates": null,
+    "address": null,
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": null,
+    "country": "US",
+    "website": "https://linktr.ee/Veganyoniluxe",
+    "phone": "+17139021796",
+    "operating_status": null,
+    "confidence": 0.08493328094482422,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "5d136cd4-a648-430a-b4b1-e43e541e73f6",
+    "name": "NOURISH Cooking Co. - Vegan Food Delivery - Vegan Catering - Vegan Meal Plan",
+    "basic_category": "food_service",
+    "taxonomy_primary": "food_delivery_service",
+    "taxonomy_alternates": null,
+    "address": "4901 Rose St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77007",
+    "country": "US",
+    "website": "https://nourishcookingco.com/",
+    "phone": "7139090402",
+    "operating_status": null,
+    "confidence": 0.9449552893638611,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "875ebdb4-f007-4650-94d1-bae23a258615",
+    "name": "Flower Child",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1533 N Shepherd Dr Ste 100",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77008",
+    "country": "US",
+    "website": "https://www.iamaflowerchild.com/locations/houston-tx-houston-heights/",
+    "phone": "+13462304478",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "9cd6af02-9da1-446f-9211-829848906980",
+    "name": "Ginger Mule",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "449 W 19th St Suite C200",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77008",
+    "country": "US",
+    "website": "https://www.toasttab.com/thegingermule19th/rewardsSignup",
+    "phone": "+17138764768",
+    "operating_status": "open",
+    "confidence": 0.9996825027763844,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "5ff96844-b86d-4507-ace5-a4aacaa5c75e",
+    "name": "Verdine",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "449 W 19th St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77008-3983",
+    "country": "US",
+    "website": "https://www.eatverdine.com",
+    "phone": "+17138764768",
+    "operating_status": "open",
+    "confidence": 0.9270754456520081,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "0d461889-abfc-43ec-8292-6189125d6da7",
+    "name": "Finally Vegan Macarons",
+    "basic_category": "casual_eatery",
+    "taxonomy_primary": "bakery",
+    "taxonomy_alternates": null,
+    "address": "1229 Heights Blvd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77008",
+    "country": "US",
+    "website": "https://www.finallyveganmacarons.com/",
+    "phone": "+17133767608",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "757bb2f7-4860-472d-98d5-f67863de4a30",
+    "name": "Green Seed Vegan",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2305 Wheeler St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004-5233",
+    "country": "US",
+    "website": "http://www.greenseedvegan.com/",
+    "phone": "+17134878346",
+    "operating_status": "open",
+    "confidence": 0.9722161889076233,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "6d1bf662-6215-4de8-ba77-24031abd4fac",
+    "name": "Peace Vegan Eats",
+    "basic_category": "food_truck_stand",
+    "taxonomy_primary": "food_truck_stand",
+    "taxonomy_alternates": null,
+    "address": "2211 Travis St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77002-8711",
+    "country": "US",
+    "website": "",
+    "phone": "+18328185308",
+    "operating_status": "open",
+    "confidence": 0.55,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "50ebdee4-13ca-4ef5-a876-29d2b1d42e2e",
+    "name": "Just Falafel Houston",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "500 Dallas St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77002-2030",
+    "country": "US",
+    "website": "http://www.jfhouston.com/",
+    "phone": "+18328772936",
+    "operating_status": "open",
+    "confidence": 0.9829118251800537,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "8ad781a0-d01e-4519-bf64-5c1bd5a07604",
+    "name": "Soul Food Vegan",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2901 Emancipation Ave",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004-1503",
+    "country": "US",
+    "website": "http://www.soulfoodvegan.com",
+    "phone": "17138148865",
+    "operating_status": "open",
+    "confidence": 0.9375736117362976,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "7e8eff12-3e63-47bb-ba19-643336336364",
+    "name": "Houstatlantavegan",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2509 Alabama St",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77004",
+    "country": "US",
+    "website": "http://www.houstatlantavegan.com/",
+    "phone": "+18326232461",
+    "operating_status": "open",
+    "confidence": 0.779512345790863,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "7fb79cda-c9db-493f-9399-b5a068badb5c",
+    "name": "Herban Frequency",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "3401 Harrisburg Blvd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77003-2438",
+    "country": "US",
+    "website": "http://www.herbanfrequency.com",
+    "phone": "+17133389506",
+    "operating_status": "open",
+    "confidence": 0.55,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "909bc9f9-c30e-4811-84d1-b96118e4850b",
+    "name": "Vegan Vibez Festival",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": null,
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": null,
+    "country": "US",
+    "website": "https://www.eventbrite.com/e/vegan-vibez-fest-tickets-1097835037149?utm_experiment=test_share_listing&aff=ebdsshios",
+    "phone": null,
+    "operating_status": null,
+    "confidence": 0.10409115254878998,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "43d7af00-c214-4f9b-9bac-caccec305cb7",
+    "name": "Vegan Green &amp Hope Corp",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "restaurant",
+    "taxonomy_alternates": null,
+    "address": "16618 Clay Rd Ste 125",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77084-6035",
+    "country": "US",
+    "website": "",
+    "phone": null,
+    "operating_status": "open",
+    "confidence": 0.95,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "b7793a7b-9c95-49be-b6e0-bf36c6ab0d1e",
+    "name": "Vegan Donut & Gelato",
+    "basic_category": "casual_eatery",
+    "taxonomy_primary": "donut_shop",
+    "taxonomy_alternates": null,
+    "address": "16618 Clay Rd",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77084-4076",
+    "country": "US",
+    "website": "http://vegandonutsgelato.com/",
+    "phone": "+18325937788",
+    "operating_status": "open",
+    "confidence": 0.9546994566917419,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "069a1546-4af9-4f3b-87e9-3461ad895759",
+    "name": "LT Tofu & Fast Food",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "13433 State Highway 249 Ste 4",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77086",
+    "country": "US",
+    "website": "http://lttofufastfood.com",
+    "phone": "(281) 445-1775",
+    "operating_status": null,
+    "confidence": 0.77,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "86c7d561-6b78-47eb-8cd7-e2234cb07ab2",
+    "name": "Garden Of Life Vegan Deli",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "restaurant",
+    "taxonomy_alternates": null,
+    "address": "12121 Veterans Memorial Dr",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77067-5237",
+    "country": "US",
+    "website": "thegardenofvegan.biz",
+    "phone": "2818934300",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "3839e6eb-5882-4be9-bf52-1796048b00a7",
+    "name": "Freshii",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "3100 North Terminal Road",
+    "locality": "Houston",
+    "region": "TX",
+    "postcode": "77032",
+    "country": "US",
+    "website": "https://www.freshii.com",
+    "phone": "(647) 749-5130",
+    "operating_status": "open",
+    "confidence": 0.9473531246185303,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  }
+]

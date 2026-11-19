@@ -1,0 +1,36 @@
+{
+ "name": "real-work-all",
+ "data_label": "public",
+ "rulebook": "../rulebooks/example.toml",
+ "tasks": [
+  {
+   "task": "../tasks/listings-denver.json",
+   "qa": "default+judge"
+  },
+  {
+   "task": "../tasks/city-page-denver.json",
+   "qa": "default+judge"
+  },
+  {
+   "task": "../tasks/methodology-page.json",
+   "qa": "default+factcheck",
+   "heldout": true
+  },
+  {
+   "task": "../tasks/listings-wedding-denver.json",
+   "qa": "default+judge",
+   "rulebook": "../rulebooks/wedding-directory.toml"
+  },
+  {
+   "task": "../tasks/city-page-wedding-denver.json",
+   "qa": "default+judge",
+   "rulebook": "../rulebooks/wedding-directory.toml",
+   "heldout": true
+  },
+  {
+   "task": "../tasks/methodology-page-wedding.json",
+   "qa": "default+factcheck",
+   "rulebook": "../rulebooks/wedding-directory.toml"
+  }
+ ]
+}

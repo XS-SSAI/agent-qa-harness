@@ -1,0 +1,27 @@
+{
+ "id": "city-page-wedding-denver",
+ "family": "seo-city-page",
+ "kind": "article",
+ "data_label": "public",
+ "prompt": "Write a directory page draft: \"Wedding venues in Denver\" for the site described in the SITE PROFILE.\nUse ONLY the 10 verified listings in reference_wedding_denver_top10.json. For each listing write a '### <exact name>' heading, then 2-3 sentences using only the supplied facts (category, address, website, phone). Do not invent packages, hours, prices, ratings, capacity or history.\nStart with a 60-90 word intro on how to use the list. End the page with a short note that whether a place hosts weddings, plus hours and packages, are checked on each business's own site before publishing.\nFlag any listing whose wedding-venue status looks doubtful (for example a hotel chain, a tattoo studio, a brewery whose name says it is closed, a board-game cafe, or a community resource centre).\nThen add the two delivery lines on their own lines: 'Label: not ready (draft awaiting editor checks)' and 'Human-reader check: pending'.\nThen the review block exactly as the WRITER INSTRUCTIONS say.",
+ "inputs": {
+  "files": [
+   "../profiles/wedding-directory/site-profile.md",
+   "../data/overture/reference_wedding_denver_top10.json"
+  ],
+  "profile": "../profiles/wedding-directory/site-profile.md",
+  "reference": "../data/overture/reference_wedding_denver_top10.json",
+  "writer_instructions": true
+ },
+ "expect": {
+  "allowed_names_from": "reference",
+  "rubric": [
+   "Only the 10 supplied listings, exact names as ### headings",
+   "No invented packages, hours, prices, ratings, capacity or history",
+   "Plain factual voice per the profile; no banned phrases",
+   "Review block present with specific first-hand prompts for an editor",
+   "Flags any listing whose wedding-venue status looks doubtful (for example a hotel chain, tattoo studio, brewery marked closed, board-game cafe, or resource centre)"
+  ]
+ },
+ "heldout": true
+}

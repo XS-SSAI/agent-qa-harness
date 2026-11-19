@@ -1,0 +1,136 @@
+{
+ "choices": [
+  {
+   "delta": {
+    "content": "",
+    "role": "assistant"
+   },
+   "finish_reason": "stop",
+   "index": 0,
+   "message": {
+    "content": "As of **November 2026**, the strongest comparable evidence is the **Stack Overflow Developer Survey 2026**, supplemented by package-download and marketplace figures reported for late October/November. The ranking below prioritizes measured adoption; GitHub stars are included only where no stronger usage metric is available.\n\n| Rank | Name | Type | Key usage metric | Source URL |\n|---:|---|---|---|---|\n| 1 | **Claude Code** | CLI coding agent | **65.5%**, 8,030 respondents in Stack Overflow 2026; npm: **12,837,062 weekly downloads** for Oct. 22\u201328, 2026 | https://survey.stackoverflow.co/2026/ai/data/ai-code-agent ; https://stackness.dev/blog/stack-overflow-developer-survey-2026-tool-changes-year-over-year |\n| 2 | **GitHub Copilot agent** | IDE/cloud coding agent | **58.7%**, 7,196 respondents in Stack Overflow 2026; VS Code Copilot extensions: **79.3M installs** reported Nov. 14, 2026 | https://survey.stackoverflow.co/2026/ai/data/ai-code-agent ; https://agentgid.com/lists/ai-coding-agents-for-vs-code/ |\n| 3 | **OpenAI Codex CLI** | CLI coding agent | **29.5%**, 3,620 respondents; npm: **27,029,722 weekly downloads** for Oct. 22\u201328, 2026 | https://survey.stackoverflow.co/2026/ai/data/ai-code-agent ; https://stackness.dev/blog/stack-overflow-developer-survey-2026-tool-changes-year-over-year |\n| 4 | **Cursor** | IDE coding agent | **25.5%**, 3,127 respondents; JetBrains: **12%** workplace adoption in May\u2013July 2026 | https://survey.stackoverflow.co/2026/ai/data/ai-code-agent ; https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/ |\n| 5 | **Gemini Code Assist** | IDE coding agent | **14.6%**, 1,789 respondents in Stack Overflow 2026 | https://survey.stackoverflow.co/2026/ai/data/ai-code-agent |\n| 6 | **OpenCode** | Open-source CLI coding agent | **13.6%**, 1,662 respondents; npm: **4,458,157 weekly downloads** for Oct. 22\u201328, 2026; about **227K GitHub stars** reported Nov. 14 | https://survey.stackoverflow.co/2026/ai/data/ai-code-agent ; https://stackness.dev/blog/stack-overflow-developer-survey-2026-tool-changes-year-over-year ; https://agentgid.com/lists/ai-coding-agents-for-vs-code/ |\n| 7 | **JetBrains AI** | IDE coding agent | **12.8%**, 1,569 respondents in Stack Overflow 2026 | https://survey.stackoverflow.co/2026/ai/data/ai-code-agent |\n| 8 | **Cline** | Open-source IDE coding agent | **4.5%**, 551 respondents; VS Code extension: **5.9M installs** reported Nov. 14, 2026 | https://survey.stackoverflow.co/2026/ai/data/ai-code-agent ; https://agentgid.com/lists/open-source-coding-agents/ |\n| 9 | **LangGraph** | Open-source agent framework/runtime | **18.8%**, 825 respondents in the Stack Overflow 2026 framework question | https://survey.stackoverflow.co/2026/ai/data |\n| 10 | **CrewAI** | Open-source agent framework/runtime | **5.5%**, 242 respondents in the Stack Overflow 2026 framework question | https://survey.stackoverflow.co/2026/ai/data |\n| 11 | **Aider** | Open-source CLI coding agent | **2.1%**, 256 respondents in Stack Overflow 2026 | https://survey.stackoverflow.co/2026/ai/data/ai-code-agent |\n| 12 | **Hermes Agent** | Open-source personal agent | **10.2%**, 449 respondents in the Stack Overflow 2026 framework/agent question | https://survey.stackoverflow.co/2026/ai/data |\n| 13 | **Goose** | Open-source personal/desktop agent | **No verified usage number found** in the cited 2026 survey, package, marketplace, or company-user evidence | \u2014 |\n| 14 | **OpenHands** | Open-source coding-agent runtime | **No verified usage number found** in the cited 2026 survey, package, marketplace, or company-user evidence | \u2014 |\n| 15 | **nanobot (HKUDS)** | Open-source personal agent | **No verified usage number found** in the cited evidence | \u2014 |\n\n### Additional requested projects\n\n- **OpenClaw:** No hard usage number was found in the available evidence.\n- **Gemini CLI:** No separate hard usage number was found; the **14.6%** figure above is for Gemini Code Assist, not necessarily Gemini CLI.\n- **GitHub Copilot agent:** The Stack Overflow figure covers GitHub Copilot as a coding agent; it does not isolate the newer cloud coding-agent feature.\n- **LangGraph and CrewAI:** Their Stack Overflow figures measure reported use of the framework category, not necessarily agents deployed in production.\n- **Hermes Agent:** The survey provides a usage figure, but it should be treated cautiously because the cited results do not provide the full question wording or independent package-download validation.\n\nThe survey\u2019s direct ranking for coding agents is therefore: **Claude Code, GitHub Copilot, OpenAI Codex, Cursor, Google/Gemini tools, OpenCode, and JetBrains AI**. Stack Overflow reports Claude Code at **65.5%** and Copilot at **58.7%**, while JetBrains reports workplace adoption of Claude Code at **39%**, Copilot at **21%**, Codex at **16%**, and Cursor at **12%** for its May\u2013July 2026 wave.[1][2]",
+    "role": "assistant"
+   }
+  }
+ ],
+ "citations": [
+  "https://survey.stackoverflow.co/2026/ai/data/ai-code-agent",
+  "https://survey.stackoverflow.co/2026/ai/data",
+  "https://survey.stackoverflow.co/2026/ai",
+  "https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/",
+  "https://stackness.dev/blog/the-state-of-developer-stacks-q3-2026",
+  "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/",
+  "https://stackness.dev/blog/stack-overflow-developer-survey-2026-tool-changes-year-over-year",
+  "https://agentgid.com/lists/ai-coding-agents-for-vs-code/",
+  "https://theairankings.com/best-ai-for-coding/",
+  "https://agentgid.com/lists/open-source-coding-agents/"
+ ],
+ "created": 1794680375,
+ "id": "resp_e60c31b4-115f-42be-afff-3dbc660b8224",
+ "model": "sonar",
+ "object": "chat.completion",
+ "search_results": [
+  {
+   "date": null,
+   "last_updated": "2026-10-06",
+   "place_metadata": null,
+   "snippet": "| |Respondents|Percent|\n|--|--|--|\n|Claude Code|8,030|65.5%|\n|GitHub Copilot|7,196|58.7%|\n|OpenAI Codex|3,620|29.5%|\n|Cursor|3,127|25.5%|\n|Google Antigravity|1,956|16.0%|\n|Gemini Code Assist|1,789|14.6%|\n|Open Code|1,662|13.6%|\n|JetBrains AI|1,569|12.8%|\n|Windsurf|796|6.5%|\n|Warp|641|5.2%|\n|Cline|55...",
+   "source": "web",
+   "title": "AI coding agents \u2014 AI data 2026",
+   "url": "https://survey.stackoverflow.co/2026/ai/data/ai-code-agent"
+  },
+  {
+   "date": null,
+   "last_updated": "2026-10-22",
+   "place_metadata": null,
+   "snippet": "| |Respondents|Percent|\n|--|--|--|\n|LangChain|1,329|30.2%|\n|OpenAI Agents SDK|1,048|23.8%|\n|Terminal Use|832|18.9%|\n|LangGraph|825|18.8%|\n|Llama Stack|767|17.4%|\n|Google ADK|617|14.0%|\n|Hermes Agent|449|10.2%|\n|Vercel AI SDK|395|9.0%|\n|Pydantic AI|390|8.9%|\n|CrewAI|242|5.5%|\n|Semantic Kernel|218|5.0...",
+   "source": "web",
+   "title": "AI data 2026 | Stack Overflow Developer Survey",
+   "url": "https://survey.stackoverflow.co/2026/ai/data"
+  },
+  {
+   "date": null,
+   "last_updated": "2026-10-23",
+   "place_metadata": null,
+   "snippet": "Claude Code (66%) and GitHub Copilot (59%) are the leaders for coding agents.",
+   "source": "web",
+   "title": "AI 2026",
+   "url": "https://survey.stackoverflow.co/2026/ai"
+  },
+  {
+   "date": "2026-10-06",
+   "last_updated": "2026-11-13",
+   "place_metadata": null,
+   "snippet": "The agents of choice are Claude Code (66%) and GitHub Copilot (59%).",
+   "source": "web",
+   "title": "The results of the 2026 Developer Survey are here!",
+   "url": "https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/"
+  },
+  {
+   "date": "2026-10-13",
+   "last_updated": "2026-11-13",
+   "place_metadata": null,
+   "snippet": "Claude Code was the most-used AI coding agent of Q3 2026 in both large developer surveys fielded in the quarter.\n65.5% of the 12,255 people who answered the coding agent question in the Stack Overflow 2026 survey (fieldwork 23 June to 5 August 2026) used it, and so did 39% of 15,509 professional dev...",
+   "source": "web",
+   "title": "The state of developer stacks, Q3 2026 | Stackness",
+   "url": "https://stackness.dev/blog/the-state-of-developer-stacks-q3-2026"
+  },
+  {
+   "date": "2026-08-19",
+   "last_updated": "2026-10-30",
+   "place_metadata": null,
+   "snippet": "**GitHub Copilot** **has lost its leadership**, experiencing a decline from 29% adoption a year ago to 21% in May\u2013July 2026.\n...\nAlthough **Cursor** has gained some mind share (from 69% in January to 75% in May\u2013July), **it has experienced a small decline in adoption**, from 18% in January to 12% in ...",
+   "source": "web",
+   "title": "AI Coding Agents: Adoption Trends - The JetBrains Blog",
+   "url": "https://blog.jetbrains.com/research/2026/08/ai-coding-agent-adoption-2026/"
+  },
+  {
+   "date": "2026-10-30",
+   "last_updated": "2026-11-13",
+   "place_metadata": null,
+   "snippet": "In the 2026 Stack Overflow Developer Survey, published on 6 October 2026, Claude Code passed GitHub Copilot on the coding-tool question: 68.4% of the 11,739 people who ticked a tool had used Claude Code, against 61.3% for Copilot.\n...\nClaude Code leads GitHub Copilot in the 2026 Stack Overflow surve...",
+   "source": "web",
+   "title": "Stack Overflow developer survey 2026: which tools moved since 2023, and which moves are a changed question",
+   "url": "https://stackness.dev/blog/stack-overflow-developer-survey-2026-tool-changes-year-over-year"
+  },
+  {
+   "date": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "place_metadata": null,
+   "snippet": "By weekly package downloads, the leaders are OpenAI Codex (26.4M), Claude Code (17.2M), OpenCode (3.5M).\nBy VS Code extension installs, the leaders are GitHub Copilot (79.3M), Claude Code (30.2M), OpenAI Codex (16.7M).\nBy GitHub stars, the leaders are OpenCode (227K), Claude Code (156K), OpenAI Code...",
+   "source": "web",
+   "title": "AI Coding Agents for VS Code Ranked by Usage",
+   "url": "https://agentgid.com/lists/ai-coding-agents-for-vs-code/"
+  },
+  {
+   "date": "2026-11-13",
+   "last_updated": "2026-11-14",
+   "place_metadata": null,
+   "snippet": "|Agent|Pull requests opened (PR Arena)|Merged, share of all|Merged work with a human reviewer (Amplifying)|Merged work that touches tests (Amplifying)|\n|--|--|--|--|--|\n|Claude Code|Not tracked|91.5% (Amplifying)|30.5%|47.5%|\n|OpenAI Codex|About 7.8 million|87.5%|28.6%|69.2%|\n|GitHub Copilot coding ...",
+   "source": "web",
+   "title": "Best AI for Coding in 2026: Models, Tools & Agents Compared ...",
+   "url": "https://theairankings.com/best-ai-for-coding/"
+  },
+  {
+   "date": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "place_metadata": null,
+   "snippet": "By weekly package downloads, the leaders are OpenAI Codex (26.2M), Pi (6.3M), OpenCode (3.4M).\nBy VS Code extension installs, the leaders are OpenAI Codex (16.7M), Cline (5.9M), Kilo Code (1.7M).\nBy GitHub stars, the leaders are Rea (456K), OpenCode (227K), OpenAI Codex (135K).",
+   "source": "web",
+   "title": "Open-Source Coding Agents Ranked: CLI and Editor Agents",
+   "url": "https://agentgid.com/lists/open-source-coding-agents/"
+  }
+ ],
+ "usage": {
+  "completion_tokens": 1327,
+  "cost": {
+   "input_tokens_cost": 0.0025499999999999997,
+   "output_tokens_cost": 0.00351,
+   "request_cost": 0.0025,
+   "total_cost": 0.00856
+  },
+  "prompt_tokens": 172,
+  "search_context_size": "low",
+  "total_tokens": 1499
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "id": "city-page-denver",
+ "family": "seo-city-page",
+ "kind": "article",
+ "data_label": "public",
+ "prompt": "Write a directory page draft: \"Vegan restaurants in Denver\" for the site described in the SITE PROFILE.\nUse ONLY the 10 verified listings in reference_denver_top10.json. For each listing write a '### <exact name>' heading, then 2-3 sentences using only the supplied facts (category, address, website, phone). Do not invent dishes, hours, prices, ratings or history.\nStart with a 60-90 word intro on how to use the list. End the page with a short note that vegan status, hours and menus are checked on each business's site before publishing.\nThen add the two delivery lines on their own lines: 'Label: not ready (draft awaiting editor checks)' and 'Human-reader check: pending'.\nThen the review block exactly as the WRITER INSTRUCTIONS say.",
+ "inputs": {
+  "files": [
+   "../profiles/vegan-directory/site-profile.md",
+   "../data/overture/reference_denver_top10.json"
+  ],
+  "profile": "../profiles/vegan-directory/site-profile.md",
+  "reference": "../data/overture/reference_denver_top10.json",
+  "writer_instructions": true
+ },
+ "expect": {
+  "allowed_names_from": "reference",
+  "rubric": [
+   "Only the 10 supplied listings, exact names as ### headings",
+   "No invented dishes, hours, prices, ratings or history",
+   "Plain factual voice per the profile; no banned phrases",
+   "Review block present with specific first-hand prompts for an editor",
+   "Flags any listing whose vegan status looks doubtful (for example a chain not known as vegan)"
+  ]
+ }
+}

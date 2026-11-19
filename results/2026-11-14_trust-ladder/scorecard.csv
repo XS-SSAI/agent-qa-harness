@@ -1,0 +1,3 @@
+agent,task,data_label,mode,pass,checks_passed,checks_total,judge_score,agent_usd,qa_usd,seconds,reasons
+deepseek-flash,listings-denver,public,dry-run/trust:aqh-2026-11-14-listings-a,PASS,12,12,,0.002728,0.0,28.0,
+deepseek-flash,listings-las-vegas,public,dry-run/trust:aqh-2026-11-14-listings-a,PASS,12,12,,0.003016,0.0,18.6,

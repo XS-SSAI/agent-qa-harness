@@ -1,0 +1,20 @@
+{
+ "name": "wedding-v1",
+ "data_label": "public",
+ "rulebook": "../rulebooks/wedding-directory.toml",
+ "tasks": [
+  {
+   "task": "../tasks/listings-wedding-denver.json",
+   "qa": "default+judge"
+  },
+  {
+   "task": "../tasks/city-page-wedding-denver.json",
+   "qa": "default+judge",
+   "heldout": true
+  },
+  {
+   "task": "../tasks/methodology-page-wedding.json",
+   "qa": "default+factcheck"
+  }
+ ]
+}

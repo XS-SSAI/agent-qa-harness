@@ -1,0 +1,34 @@
+## npm last-week downloads (api.npmjs.org)
+@anthropic-ai/claude-code 17644580 2026-11-07 2026-11-13 
+@openai/codex 26440004 2026-11-07 2026-11-13 
+opencode-ai 3779410 2026-11-07 2026-11-13 
+@google/gemini-cli 446599 2026-11-07 2026-11-13 
+@githubnext/github-copilot-cli 1585 2026-11-07 2026-11-13 
+@github/copilot 1711132 2026-11-07 2026-11-13 
+cline 85895 2026-11-07 2026-11-13 
+@qwen-code/qwen-code 181774 2026-11-07 2026-11-13 
+openclaw 3078703 2026-11-07 2026-11-13 
+@augmentcode/auggie 45440 2026-11-07 2026-11-13 
+## PyPI last-month downloads (pypistats.org)
+aider-chat 343364 
+nanobot-ai 94952 
+hermes-agent 317211 
+crewai 2629192 
+langgraph 58774245 
+openhands-ai 265038 
+goose-ai 601 
+smolagents 709647 
+## GitHub stars (api.github.com)
+anthropics/claude-code 155659 anthropics/claude-code  
+openai/codex 135283 openai/codex  
+sst/opencode 226837 anomalyco/opencode  
+google-gemini/gemini-cli 108831 google-gemini/gemini-cli  
+cline/cline 71627 cline/cline  
+Aider-AI/aider 50120 Aider-AI/aider  
+block/goose 56608 aaif-goose/goose  
+All-Hands-AI/OpenHands 93465 OpenHands/OpenHands  
+NousResearch/hermes-agent 263345 NousResearch/hermes-agent  
+HKUDS/nanobot 50082 HKUDS/nanobot  
+openclaw/openclaw 394447 openclaw/openclaw  
+langchain-ai/langgraph 44959 langchain-ai/langgraph  
+crewAIInc/crewAI 60894 crewAIInc/crewAI  

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+local/
+prompts/
+*.egg-info/
+.env
+*.env
+results/quickstart*/
+results/my-run/

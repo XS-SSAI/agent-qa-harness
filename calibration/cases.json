@@ -1,0 +1,23 @@
+{
+ "note": "Judge calibration (scoring v2). For each task type one known-good answer (a real output that passed both judges at 9+ in the 2026-11-15 final run) and one known-bad answer (the same text with invented facts, placeholders, meta commentary or paid-ranking claims added). Every judge must pass the good one and fail the bad one, or a final run aborts.",
+ "cases": [
+  {
+   "type": "listings",
+   "task": "tasks/listings-denver.json",
+   "good": "calibration/listings-denver.good.md",
+   "bad": "calibration/listings-denver.bad.md"
+  },
+  {
+   "type": "city-page",
+   "task": "tasks/city-page-denver.json",
+   "good": "calibration/city-page-denver.good.md",
+   "bad": "calibration/city-page-denver.bad.md"
+  },
+  {
+   "type": "methodology-page",
+   "task": "tasks/methodology-page-wedding.json",
+   "good": "calibration/methodology-page-wedding.good.md",
+   "bad": "calibration/methodology-page-wedding.bad.md"
+  }
+ ]
+}

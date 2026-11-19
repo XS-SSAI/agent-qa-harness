@@ -1,0 +1,22 @@
+{
+  "name": "aqh-locked-v1",
+  "timeout_seconds": 900,
+  "cap_usd": 5.0,
+  "max_turns": 30,
+  "permission_bypass": false,
+  "kill_process_group_on_timeout": true,
+  "judge_min_score": 7.0,
+  "judge_auto_order": [
+    "mimo",
+    "deepseek-flash",
+    "gemini-flash",
+    "sonar"
+  ],
+  "scoring_version": "aqh-scoring-v3",
+  "judge_retries": 2,
+  "judge2_max_tokens": 16000,
+  "calibrate_before_final_runs": true,
+  "notes": "Every agent in a comparable run uses these same limits. Do not raise the timeout or cap for one agent only. permission_bypass is always false.",
+  "judges": "judge (MiMo) + judge2 (DeepSeek Flash) + judge3 (Gemini 2.5 Flash); final judge verdict = majority of 3",
+  "judge_pass_rule": "score >= judge_min_score AND no invented facts (enforced in code; model pass flag ignored)"
+}

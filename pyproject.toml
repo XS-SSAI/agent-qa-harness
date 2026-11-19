@@ -1,0 +1,22 @@
+[project]
+name = "agent-qa-harness"
+version = "0.3.0"
+description = "Plug any AI agent in with one small adapter; score its real work with a deterministic gate, grounding checks, cross-model judges and a pass^3 trust ladder."
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+readme = "README.md"
+keywords = ["ai-agents", "llm-evaluation", "agent-testing", "llm-as-judge", "qa"]
+dependencies = []
+
+[project.scripts]
+aqh = "aqh.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["aqh*"]
+
+[tool.setuptools.package-data]
+aqh = ["families.json"]

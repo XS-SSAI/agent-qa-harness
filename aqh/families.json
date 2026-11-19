@@ -1,0 +1,57 @@
+{
+  "_doc": "Model families for cross-family grading: no model grades its own family's work. Unknown names fail closed.",
+  "families": {
+    "deepseek": [
+      "deepseek"
+    ],
+    "mimo": [
+      "mimo",
+      "xiaomi"
+    ],
+    "perplexity": [
+      "sonar",
+      "perplexity"
+    ],
+    "openai": [
+      "gpt",
+      "chatgpt",
+      "codex",
+      "o3",
+      "o4"
+    ],
+    "anthropic": [
+      "claude",
+      "haiku",
+      "sonnet",
+      "opus"
+    ],
+    "google": [
+      "gemini"
+    ],
+    "nous": [
+      "hermes"
+    ],
+    "moonshot": [
+      "kimi",
+      "moonshot"
+    ],
+    "deterministic": [
+      "rules",
+      "script",
+      "gate"
+    ],
+    "github": [
+      "copilot"
+    ],
+    "cursor": [
+      "cursor"
+    ],
+    "opencode": [
+      "opencode"
+    ],
+    "xai": [
+      "grok",
+      "xai"
+    ]
+  }
+}

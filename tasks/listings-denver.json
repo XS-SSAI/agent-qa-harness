@@ -1,0 +1,27 @@
+{
+ "id": "listings-denver",
+ "family": "directory-listing-clean",
+ "kind": "data",
+ "data_label": "public",
+ "prompt": "You are cleaning candidate listings for a US vegan restaurant directory, city: Denver, CO.\nThe attached JSON is a public Overture Maps extract. Select exactly 10 listings a diner could use today.\nRules:\n- Keep only places with operating_status \"open\".\n- Keep only taxonomy_primary vegan_restaurant or vegetarian_restaurant.\n- Each place needs a street address. No duplicates (same name and address).\n- Prefer vegan_restaurant over vegetarian_restaurant, then higher confidence.\n- Copy id, name, address, locality, region, postcode, phone and website EXACTLY as in the source (null if missing). Never fix, guess or add values.\n- Add a field \"check_before_publish\" with one short sentence on what an editor must still confirm on the business's own site.\nReturn ONLY a JSON array of 10 objects, no commentary.",
+ "inputs": {
+  "files": [
+   "../data/overture/vegan_denver.json"
+  ],
+  "source_records": "../data/overture/vegan_denver.json"
+ },
+ "expect": {
+  "listings": true,
+  "count": 10,
+  "allowed_taxonomy": [
+   "vegan_restaurant",
+   "vegetarian_restaurant"
+  ],
+  "rubric": [
+   "Exactly 10 open vegan or vegetarian restaurants from the source",
+   "Fields copied exactly; nothing invented",
+   "check_before_publish is specific and useful for an editor",
+   "Valid JSON only, no commentary"
+  ]
+ }
+}

@@ -1,0 +1,2 @@
+agent,task,data_label,mode,pass,checks_passed,checks_total,judge_score,agent_usd,qa_usd,seconds,reasons
+nanobot,city-page-denver,public,dry-run/trust:aqh-2026-11-14-writer-a,PASS,22,22,9.0,0.010026,0.00064,30.9,

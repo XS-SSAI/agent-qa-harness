@@ -1,0 +1,842 @@
+[
+  {
+    "id": "2c790f35-dbfd-416d-8557-666dec3eb82a",
+    "name": "Zest",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2740 S Wadsworth Blvd, Unit A",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80227",
+    "country": "US",
+    "website": "http://www.zestdenver.com/",
+    "phone": "3039844722",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "c3f40822-79c7-4c5c-9e4c-6ca372bfac04",
+    "name": "The Hood Chefs Hide-away",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "810 Vallejo St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80204-3821",
+    "country": "US",
+    "website": "http://vallejofood.com",
+    "phone": null,
+    "operating_status": "open",
+    "confidence": 0.55,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "31a41217-3d3f-4b3f-84b8-dbb2eb4dc1f2",
+    "name": "Somebody People",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1165 S Broadway",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80210",
+    "country": "US",
+    "website": "http://www.somebodypeople.com/",
+    "phone": "+17205025681",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "8167775b-bf86-4a1f-826d-2e71bfcc971b",
+    "name": "Vegan Epicurist",
+    "basic_category": "event_or_party_service",
+    "taxonomy_primary": "caterer",
+    "taxonomy_alternates": null,
+    "address": "675 S Broadway",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80209-4162",
+    "country": "US",
+    "website": "https://veganepicurist.com",
+    "phone": "17204657550",
+    "operating_status": "open",
+    "confidence": 0.44999999999999996,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "b8342838-8bb1-41ba-929e-4542196355ea",
+    "name": "Vegan Thai Co.",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "810 Vallejo St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80204",
+    "country": "US",
+    "website": "http://veganthaico.com",
+    "phone": "(720) 500-6920",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "e1bb2562-db50-42a9-ab15-8b22fb0d808f",
+    "name": "Vegan Van",
+    "basic_category": "food_truck_stand",
+    "taxonomy_primary": "food_truck_stand",
+    "taxonomy_alternates": null,
+    "address": "W 4TH Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80204",
+    "country": "US",
+    "website": "http://www.veganvan.com",
+    "phone": "(720) 340-2643",
+    "operating_status": null,
+    "confidence": 0.77,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "20aec476-343a-4c97-8ed5-2bc12bd3526e",
+    "name": "City O' City",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "206 E 13th Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80203",
+    "country": "US",
+    "website": "http://www.cityocitydenver.com/",
+    "phone": "+13038316443",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "3c9ae69c-7640-4dfc-8547-f497f63c1941",
+    "name": "Nooch | Vegan Market",
+    "basic_category": "food_and_beverage_store",
+    "taxonomy_primary": "grocery_store",
+    "taxonomy_alternates": null,
+    "address": "10 E Ellsworth Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80209-1516",
+    "country": "US",
+    "website": "https://noochveganmarket.com",
+    "phone": "7203285324",
+    "operating_status": "open",
+    "confidence": 0.95,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "97e89276-36a5-4110-846d-085a855d54bd",
+    "name": "Boujee Biscuit",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1001 N Logan St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80203-3057",
+    "country": "US",
+    "website": "http://Boujeebiscuit.square.site/",
+    "phone": "+17209000983",
+    "operating_status": null,
+    "confidence": 0.2619520127773285,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "b11aefa0-d5e7-490f-a44c-db1653cb73a6",
+    "name": "Vert Kitchen",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "704 S Pearl St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80209-4213",
+    "country": "US",
+    "website": "https://vertkitchen.com",
+    "phone": null,
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "0749c39c-2560-4297-b2e9-3ce76917c048",
+    "name": "Next Level Veggie Grill Denver",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1605 E Evans Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80210",
+    "country": "US",
+    "website": "https://www.nextlevelvg.com/",
+    "phone": "+17206406900",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "b45562e5-8eb1-463b-9b0a-d6644f5120ca",
+    "name": "Meta Burger",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "7950 E Mississippi Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80247-5100",
+    "country": "US",
+    "website": "https://metaburger.com",
+    "phone": "17205359707",
+    "operating_status": "open",
+    "confidence": 0.95,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "d2a3612a-56ea-4450-bb4a-4cc5fe314c07",
+    "name": "Vital Root",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "3915 Tennyson St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80212",
+    "country": "US",
+    "website": "http://www.vitalrootdenver.com/",
+    "phone": "+13034744131",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "fbab9b2a-d2cd-476f-b9e9-e0f740c848d7",
+    "name": "The Pig & The Sprout",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1900 Chestnut Pl",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80202",
+    "country": "US",
+    "website": "http://www.pigandsprout.com/",
+    "phone": "+17205359719",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "2cf06db7-951e-43b3-ba66-4db7bb690e8e",
+    "name": "Superfood Bar",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1541 Platte St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80202-1121",
+    "country": "US",
+    "website": "http://www.theoriginalsuperfoodbar.com",
+    "phone": "+17208553493",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "cee13e45-1ebb-4f65-9875-ee6c7881b84f",
+    "name": "The Squeaky Bean",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "3301 Tejon St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80211-3432",
+    "country": "US",
+    "website": "http://www.thesqueakybean.net",
+    "phone": "+13032840053",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "94dc28ae-ff26-4275-9ff1-a56618fa15c3",
+    "name": "The Loyal Vegan",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1312 17th St  # 1064",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80202-1508",
+    "country": "US",
+    "website": "https://www.theloyalvegan.ecwid.com",
+    "phone": "17208536084",
+    "operating_status": "open",
+    "confidence": 0.75,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  },
+  {
+    "id": "3d66c04c-b3c5-4897-9029-1a3d376e80da",
+    "name": "Mile High Vegan Network",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "restaurant",
+    "taxonomy_alternates": null,
+    "address": "1245 Champa St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80204-2154",
+    "country": "US",
+    "website": "milehighvegannetwork.com",
+    "phone": null,
+    "operating_status": "open",
+    "confidence": 0.95,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "a04cc5b6-36d0-48a2-a2b0-710d7ab61f8a",
+    "name": "Native Foods",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "500-16th Street, Unit 184c",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80202",
+    "country": "US",
+    "website": "https://www.nativefoods.com/locations/locations/pavilions",
+    "phone": "(303) 534-5366",
+    "operating_status": null,
+    "confidence": 0.77,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "7f236256-ad81-4534-8bda-8b396156feb5",
+    "name": "Sweetgreen",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1700 Broadway",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80290",
+    "country": "US",
+    "website": "https://www.sweetgreen.com",
+    "phone": "(310) 987-4080",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "d3cc7ac0-e8fa-4d43-bb6d-bb3862c4c5db",
+    "name": "Nooch Vegan Market",
+    "basic_category": "food_and_beverage_store",
+    "taxonomy_primary": "grocery_store",
+    "taxonomy_alternates": null,
+    "address": "10 E Ellsworth Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80209",
+    "country": "US",
+    "website": "http://noochveganmarket.tumblr.com",
+    "phone": "(720) 328-5324",
+    "operating_status": null,
+    "confidence": 0.77,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Foursquare",
+        "license": "Apache-2.0",
+        "provider": "foursquare"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "5cd3b683-13c0-4026-9ecb-e087b37fdae8",
+    "name": "Unofficial Translation",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1310 N Pearl St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80203",
+    "country": "US",
+    "website": "http://www.unofficialtranslation.com/",
+    "phone": "+13035293565",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "cbb31e76-0f3c-4277-be4a-a226db2f3641",
+    "name": "Watercourse Foods",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "837 E 17th Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80218",
+    "country": "US",
+    "website": "http://watercoursefoods.com/",
+    "phone": "+13038327313",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "bf4a1b0b-e0ef-4091-8d8d-9ae4cd44ff46",
+    "name": "Vegetarian",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "837 E 17th Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80218-1417",
+    "country": "US",
+    "website": "",
+    "phone": "+13038327313",
+    "operating_status": "open",
+    "confidence": 0.28245124220848083,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "e00e33cb-e0fb-43f1-85b3-ac4a8e9a3bb5",
+    "name": "The Corner Beet",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1401 N Ogden St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80218",
+    "country": "US",
+    "website": "http://cornerbeet.com/",
+    "phone": "+17202954447",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "368107fc-adf4-4fbb-a218-e7a952c52fa2",
+    "name": "SAME Caf\u00e9",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2023 E Colfax Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80206",
+    "country": "US",
+    "website": "https://linktr.ee/samecafedenver",
+    "phone": "+17205306853",
+    "operating_status": "open",
+    "confidence": 0.9687336683273315,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "fc12cd24-7669-4ef2-a9a2-06145cc51ebe",
+    "name": "Mora Pizza Denver",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "2700 E Colfax Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80206-1426",
+    "country": "US",
+    "website": "",
+    "phone": "17206625069",
+    "operating_status": "open",
+    "confidence": 0.95,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "fab13481-663a-4fcc-9126-dee28ddea6fa",
+    "name": "Radha Govinda's",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "1400 Cherry St",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80220",
+    "country": "US",
+    "website": "https://radha-govindas.square.site/",
+    "phone": "3033210626",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "microsoft"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "f4c2f136-41b4-43c2-b1cc-3eba4da0a248",
+    "name": "Gaia Plant Based Medicine",
+    "basic_category": "health_care",
+    "taxonomy_primary": "health_care",
+    "taxonomy_alternates": null,
+    "address": "5926 E Colfax Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80220-1509",
+    "country": "US",
+    "website": "",
+    "phone": null,
+    "operating_status": "open",
+    "confidence": 0.95,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "name"
+    ]
+  },
+  {
+    "id": "162f5533-b382-4653-9422-f29b2ad4c22d",
+    "name": "Sos Catering",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegan_restaurant",
+    "taxonomy_alternates": null,
+    "address": "3600 E 40th Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80205-3763",
+    "country": "US",
+    "website": "",
+    "phone": "+19703133874",
+    "operating_status": "open",
+    "confidence": 0.55,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "brightquery"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy"
+    ]
+  },
+  {
+    "id": "3fb919ee-7b55-4d60-8f7d-0b89810c85c4",
+    "name": "Vegan Van",
+    "basic_category": "restaurant",
+    "taxonomy_primary": "vegetarian_restaurant",
+    "taxonomy_alternates": null,
+    "address": "5155 E 39th Ave",
+    "locality": "Denver",
+    "region": "CO",
+    "postcode": "80207",
+    "country": "US",
+    "website": "http://veganvan.com/",
+    "phone": "+13032468175",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "hours": null,
+    "sources": [
+      {
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "provider": "meta"
+      }
+    ],
+    "match_reasons": [
+      "taxonomy",
+      "name"
+    ]
+  }
+]

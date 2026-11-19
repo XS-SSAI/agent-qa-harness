@@ -1,0 +1,20 @@
+{
+ "name": "real-work-v1",
+ "data_label": "public",
+ "rulebook": "../rulebooks/example.toml",
+ "tasks": [
+  {
+   "task": "../tasks/listings-denver.json",
+   "qa": "default+judge"
+  },
+  {
+   "task": "../tasks/city-page-denver.json",
+   "qa": "default+judge"
+  },
+  {
+   "task": "../tasks/methodology-page.json",
+   "qa": "default+factcheck",
+   "heldout": true
+  }
+ ]
+}

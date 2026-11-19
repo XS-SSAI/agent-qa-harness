@@ -1,0 +1,25 @@
+{
+ "id": "methodology-page",
+ "family": "seo-method-page",
+ "kind": "article",
+ "data_label": "public",
+ "prompt": "Write a 350-500 word 'How we verify listings' page for the directory in the SITE PROFILE.\nIt must explain, accurately: where candidate listings come from (Overture Maps Foundation places data), what licence that data uses, what the editorial team checks on each business's own site before a listing is published, and how featured placements are disclosed.\nOnly state facts about Overture Maps that are true and checkable; if unsure, leave it out.\nAdd on their own lines: 'Label: not ready (draft awaiting editor checks)' and 'Human-reader check: pending'.\nThen the review block exactly as the WRITER INSTRUCTIONS say.",
+ "inputs": {
+  "files": [
+   "../profiles/vegan-directory/site-profile.md",
+   "../data/overture/ATTRIBUTION.md"
+  ],
+  "profile": "../profiles/vegan-directory/site-profile.md",
+  "writer_instructions": true
+ },
+ "expect": {
+  "rubric": [
+   "Accurate Overture Maps facts only",
+   "Clear editor checklist",
+   "Featured placement disclosure explained",
+   "No named person; editorial team voice",
+   "Review block present"
+  ]
+ },
+ "heldout": true
+}

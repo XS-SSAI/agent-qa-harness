@@ -1,0 +1,4 @@
+agent,task,data_label,mode,pass,checks_passed,checks_total,judge_score,agent_usd,qa_usd,seconds,reasons
+chatgpt-app,city-page-denver,public,dry-run/manual-paste,FAIL,20,22,6.0,,0.000566,6.4,[judge:mimo] judge_pass: Flags any listing whose vegan status looks doubtful: No flag for Sweetgreen or Veggie Grill chains not known as vegan; only vegetarian-category question raised. | [judge:mimo] judge_score: score 6.0 < 7.0
+claude-app,city-page-denver,public,dry-run/manual-paste,FAIL,21,22,7.0,,0.000922,9.8,[judge:deepseek-flash] judge_pass: Flags any listing whose vegan status looks doubtful: Sweetgreen is labeled vegan but not flagged despite being a chain not known as vegan.
+copilot-app,city-page-denver,public,dry-run/manual-paste,PASS,22,22,9.0,,0.000602,0.4,
