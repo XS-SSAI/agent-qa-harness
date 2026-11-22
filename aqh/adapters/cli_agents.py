@@ -40,9 +40,27 @@ def _kill_process_group(pid: int) -> None:
         pass
 
 
+def harness_key_names() -> set[str]:
+    """Env var names of the keys the harness itself uses (judges, fact-check, API baselines)."""
+    from .llm_api import PRESETS
+    return {cfg["key"] for cfg in PRESETS.values()} | {os.environ.get("AQH_KEY_ENV") or "AQH_API_KEY"}
+
+
+def agent_env(keep: tuple[str, ...] = ()) -> dict[str, str]:
+    """Environment for a tested agent: the process env without the harness's own keys.
+
+    The agent under test is the thing being checked, so it does not get the judge and fact-check keys.
+    A key stays only if the adapter declares it needs it (env_keep) or the owner allows it for this run
+    with AQH_AGENT_ENV_ALLOW="NAME,NAME". Everything else in the environment is passed through unchanged."""
+    allow = set(keep) | {n.strip() for n in os.environ.get("AQH_AGENT_ENV_ALLOW", "").split(",") if n.strip()}
+    held_back = harness_key_names() - allow
+    return {k: v for k, v in os.environ.items() if k not in held_back}
+
+
 class CLIAgent:
     name = "cli"
     binary = ""
+    env_keep: tuple[str, ...] = ()  # harness keys this agent needs for its own model calls (see agent_env)
     status = "written, not executed"
     prefer_file_prompt = False  # True: always point the agent at TASK.md (safer than a huge argv)
 
@@ -91,7 +109,7 @@ class CLIAgent:
         if self.uses_spend_cap:
             from .. import spend
             spend.guard()
-        env = os.environ.copy()
+        env = agent_env(self.env_keep)
         env.update(self.extra_env(wd))
         t0 = time.time()
         hook_state = self.before_run(wd)
@@ -198,6 +216,7 @@ class EchoCLI(CLIAgent):
 class ClaudeCode(CLIAgent):
     """Anthropic Claude Code: `claude -p` (print mode), JSON result, default permission mode."""
     name, binary, stdin_ok = "claude-code", "claude", True
+    env_keep = ("ANTHROPIC_API_KEY",)
 
     def argv(self, prompt, wd):
         m = os.environ.get("AQH_CLAUDE_MODEL")
@@ -214,6 +233,7 @@ class ClaudeCode(CLIAgent):
 class Codex(CLIAgent):
     """OpenAI Codex CLI: `codex exec` non-interactive, read-only sandbox, last message to a file."""
     name, binary = "codex", "codex"
+    env_keep = ("OPENAI_API_KEY",)
 
     def argv(self, prompt, wd):
         m = os.environ.get("AQH_CODEX_MODEL")
@@ -301,6 +321,14 @@ class OpenCode(CLIAgent):
     """
     name, binary = "opencode", "opencode"
     prefer_file_prompt = True
+    PROVIDER_KEYS = {"openrouter": "OPENROUTER_API_KEY", "deepseek": "DEEPSEEK_API_KEY", "openai": "OPENAI_API_KEY",
+                     "anthropic": "ANTHROPIC_API_KEY", "google": "GEMINI_API_KEY"}
+
+    @property
+    def env_keep(self) -> tuple[str, ...]:
+        """OpenRouter (its cost is read from that key) plus the key of the provider named in AQH_OPENCODE_MODEL."""
+        provider = (os.environ.get("AQH_OPENCODE_MODEL") or "openrouter").split("/")[0].lower()
+        return tuple(dict.fromkeys(k for k in ("OPENROUTER_API_KEY", self.PROVIDER_KEYS.get(provider)) if k))
     uses_spend_cap = True  # OpenRouter-billed (scoring v2: its cost is booked in the spend ledger)
 
     def argv(self, prompt, wd):
@@ -386,6 +414,7 @@ def openrouter_key_usage() -> float | None:
 class GeminiCLI(CLIAgent):
     """Google Gemini CLI: `gemini -p` non-interactive."""
     name, binary, stdin_ok = "gemini-cli", "gemini", True
+    env_keep = ("GEMINI_API_KEY",)
 
     def argv(self, prompt, wd):
         m = os.environ.get("AQH_GEMINI_MODEL")
@@ -395,6 +424,7 @@ class GeminiCLI(CLIAgent):
 class Hermes(CLIAgent):
     """Nous Research Hermes Agent: `hermes chat --query-file`, stream-json, file tool only."""
     name, binary = "hermes", "hermes"
+    env_keep = ("OPENROUTER_API_KEY",)  # Hermes' usual provider; for another one set AQH_AGENT_ENV_ALLOW
 
     def argv(self, prompt, wd):
         (wd / "query.txt").write_text(prompt, encoding="utf-8")

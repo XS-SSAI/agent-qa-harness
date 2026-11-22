@@ -40,6 +40,11 @@ JUDGE_RETRIES = 2
 JUDGE_MAX_TOKENS = 6000
 JUDGE2_MAX_TOKENS = 16000  # also used by judge3 (Gemini thinks before it answers)
 NO_RETRY = ("is not set", "spend cap")
+# Scoring v5: the judge gets the whole task material and the whole output, or it does not grade at all.
+# Scoring v3 cut both at 30,000 characters without saying so; on a larger source (listings-houston is 45,672)
+# the judge then graded against a partial source and could call real records invented. Past this limit the
+# row is an ERROR (rerun with a smaller task or a larger limit), never a grade on text the judge did not see.
+JUDGE_MAX_INPUT_CHARS = 200_000
 
 
 def _backoff(attempt: int) -> None:
@@ -109,8 +114,15 @@ class JudgeQA:
         except ValueError as e:
             if output.meta.get("mode") != "manual-paste":
                 return Verdict(False, [Check("cross_family", False, str(e))], [f"cross_family: {e}"], {"layer": self.name})
+        material = task.material()
+        too_long = [f"{what} is {len(x):,} characters" for what, x in (("the task material", material), ("the output", output.text))
+                    if len(x) > JUDGE_MAX_INPUT_CHARS]
+        if too_long:
+            msg = (f"{' and '.join(too_long)}, over the {JUDGE_MAX_INPUT_CHARS:,} judge limit; judge not called "
+                   "(it would grade text it cannot see in full)")
+            return Verdict(False, [Check("judge_ran", False, msg)], [f"judge_ran: {msg}"], {"layer": self.name, "judge_error": True})
         rubric = "\n".join(f"- {r}" for r in task.expect.get("rubric", ["Complete, on-task, no invented facts."]))
-        user = f"TASK:\n{task.material()[:30000]}\n\nRUBRIC:\n{rubric}\n\nOUTPUT:\n{output.text[:30000]}"
+        user = f"TASK:\n{material}\n\nRUBRIC:\n{rubric}\n\nOUTPUT:\n{output.text}"
         max_tokens = JUDGE_MAX_TOKENS if preset.startswith("mimo") else JUDGE2_MAX_TOKENS
         try:
             d, meta, attempts = judge_call(preset, JUDGE_SYS, user, max_tokens, f"judge:{task.id}")

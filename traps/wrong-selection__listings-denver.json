@@ -1,0 +1,112 @@
+[
+ {
+  "id": "fbab9b2a-d2cd-476f-b9e9-e0f740c848d7",
+  "name": "The Pig & The Sprout",
+  "address": "1900 Chestnut Pl",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80202",
+  "phone": "+17205359719",
+  "website": "http://www.pigandsprout.com/",
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "d2a3612a-56ea-4450-bb4a-4cc5fe314c07",
+  "name": "Vital Root",
+  "address": "3915 Tennyson St",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80212",
+  "phone": "+13034744131",
+  "website": "http://www.vitalrootdenver.com/",
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "cbb31e76-0f3c-4277-be4a-a226db2f3641",
+  "name": "Watercourse Foods",
+  "address": "837 E 17th Ave",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80218",
+  "phone": "+13038327313",
+  "website": "http://watercoursefoods.com/",
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "368107fc-adf4-4fbb-a218-e7a952c52fa2",
+  "name": "SAME Café",
+  "address": "2023 E Colfax Ave",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80206",
+  "phone": "+17205306853",
+  "website": "https://linktr.ee/samecafedenver",
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "cee13e45-1ebb-4f65-9875-ee6c7881b84f",
+  "name": "The Squeaky Bean",
+  "address": "3301 Tejon St",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80211-3432",
+  "phone": "+13032840053",
+  "website": "http://www.thesqueakybean.net",
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "5cd3b683-13c0-4026-9ecb-e087b37fdae8",
+  "name": "Unofficial Translation",
+  "address": "1310 N Pearl St",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80203",
+  "phone": "+13035293565",
+  "website": "http://www.unofficialtranslation.com/",
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "3fb919ee-7b55-4d60-8f7d-0b89810c85c4",
+  "name": "Vegan Van",
+  "address": "5155 E 39th Ave",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80207",
+  "phone": "+13032468175",
+  "website": "http://veganvan.com/",
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "b11aefa0-d5e7-490f-a44c-db1653cb73a6",
+  "name": "Vert Kitchen",
+  "address": "704 S Pearl St",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80209-4213",
+  "phone": null,
+  "website": "https://vertkitchen.com",
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "2c790f35-dbfd-416d-8557-666dec3eb82a",
+  "name": "Zest",
+  "address": "2740 S Wadsworth Blvd, Unit A",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80227",
+  "phone": "3039844722",
+  "website": "http://www.zestdenver.com/",
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "bf4a1b0b-e0ef-4091-8d8d-9ae4cd44ff46",
+  "name": "Vegetarian",
+  "address": "837 E 17th Ave",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80218-1417",
+  "phone": "+13038327313",
+  "website": "",
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ }
+]
