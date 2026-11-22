@@ -12,9 +12,10 @@
     "gemini-flash",
     "sonar"
   ],
-  "scoring_version": "aqh-scoring-v3",
+  "scoring_version": "aqh-scoring-v5",
   "judge_retries": 2,
   "judge2_max_tokens": 16000,
+  "judge_max_input_chars": 200000,
   "calibrate_before_final_runs": true,
   "notes": "Every agent in a comparable run uses these same limits. Do not raise the timeout or cap for one agent only. permission_bypass is always false.",
   "judges": "judge (MiMo) + judge2 (DeepSeek Flash) + judge3 (Gemini 2.5 Flash); final judge verdict = majority of 3",

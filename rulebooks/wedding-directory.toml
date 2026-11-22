@@ -62,6 +62,29 @@ kinds = ["web"]
 pattern = '(?:€|\$)\s?\d[\d.,]*|\b\d[\d.,]*\s*(?:euros?|dollars?|usd|eur)\b'
 message = "price on page copy"
 
+# City pages are written from supplied listing data that has no hours, ratings or prices,
+# so any of these on the page was invented. label_contains limits the rules to city-page tasks.
+[[banned]]
+name = "invented_opening_hours"
+kinds = ["article"]
+label_contains = "city-page"
+pattern = '\b\d{1,2}(?::\d{2})?\s?(?:a\.?m\.?|p\.?m\.?)(?![a-z])'
+message = "clock time on a city page (opening hours are not in the supplied data)"
+
+[[banned]]
+name = "invented_rating"
+kinds = ["article"]
+label_contains = "city-page"
+pattern = '\b\d(?:\.\d)?\s?(?:stars?\b|/\s?5\b|out of (?:5|five)\b)|\brated\s+\d'
+message = "rating on a city page (ratings are not in the supplied data)"
+
+[[banned]]
+name = "invented_price"
+kinds = ["article"]
+label_contains = "city-page"
+pattern = '[$€£]\s?\d'
+message = "price on a city page (prices are not in the supplied data)"
+
 [[banned]]
 name = "creator_name_in_skill_pack"
 kinds = ["*"]

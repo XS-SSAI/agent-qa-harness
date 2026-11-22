@@ -1,5 +1,36 @@
 # Changelog
 
+## Unreleased: scoring v5 (stricter code checks)
+
+Six bad outputs passed the scoring v3 code checks with full marks. Each is now a trap in `traps/` and fails.
+A v3 PASS is not a v5 PASS: `SCORING_VERSION` is `aqh-scoring-v5`, so a saved calibration is not reused across the change.
+
+1. **Fields must be complete** (`listings_fields_complete`). A value the source has cannot be left out or set to
+   null. Before, a record with only an id passed, and so did a list with every phone number nulled.
+2. **Open means open** (`listings_open_only`). A source record with no `operating_status` is unknown, not open.
+3. **Selection rule** (`expect.selection`: `listings_required_present`, `listings_no_duplicates`,
+   `listings_selection_rule`). The task says which records to prefer; the check now holds the output to it. A skipped
+   record that ranks above a kept one fails. Tied records are interchangeable, so the four vegetarian places tied for
+   the last Denver slot are all correct. Declared in the four listings tasks.
+4. **City pages** (`expect.named_items_strict`, `expect.values_grounded`). Every verified listing needs its `###`
+   heading (`named_items_complete`); a place added under a deeper heading or a bold line is checked like a heading
+   (`named_items_no_unlisted_blocks`); every phone number and website in the body must be in the task material
+   (`values_grounded_phone`, `values_grounded_url`). Both rulebooks ban clock times, ratings and prices on city pages.
+5. **Judge input is never cut.** The judge was sent the first 30,000 characters of the task material and of the
+   output. `listings-houston` is 45,672 characters and `listings-las-vegas` 39,932, so a judge graded against a partial
+   source. The judge now gets all of it; past `JUDGE_MAX_INPUT_CHARS` (200,000) the row is ERROR, not a grade.
+6. **Tested agents do not get the harness's keys.** A CLI agent inherited the whole environment, judge keys included.
+   Each adapter now keeps only its own provider key (`env_keep`); `AQH_AGENT_ENV_ALLOW=NAME,NAME` allows more for a run.
+7. **`control__listings-denver.json` replaced.** The old control was the reference top 10, which drops places under
+   0.7 confidence. The listings task has no such threshold, so that list skipped two vegan places for vegetarian
+   ones and fails the selection rule. The new control follows the task as written.
+8. **Timeout test.** A killed child that has not been reaped yet (a zombie) no longer counts as still running; the
+   test failed in containers whose init does not reap orphans.
+
+Effect on saved outputs (code checks only, 28 files in `results/` and `calibration/`): one real output changes,
+`deepseek-flash__listings-denver` in the 14 Nov dry run, from PASS to FAIL on the selection rule. No saved city page
+or methodology page changes verdict.
+
 ## 0.3.x: scoring v4 (known-answer trap set)
 - `aqh/trapset.py`: plant functions that add one known fault to a known-good output (changed field, invented record, dropped step, false "done"), so each judge can be scored on catches and false alarms.
 - `aqh/controls.py`: strict script check that picks known-good listings controls from the source data.

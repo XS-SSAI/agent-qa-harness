@@ -16,6 +16,24 @@
   "allowed_taxonomy": [
    "event_venue"
   ],
+  "selection": {
+   "require": [
+    "address"
+   ],
+   "unique_by": [
+    "name",
+    "address"
+   ],
+   "prefer": [
+    {
+     "field": "confidence",
+     "desc": true
+    },
+    {
+     "field": "name"
+    }
+   ]
+  },
   "rubric": [
    "Exactly 10 open event_venue records from the source",
    "Fields copied exactly; nothing invented",

@@ -11,7 +11,7 @@ from pathlib import Path
 
 from .core import Output, Task, Verdict
 
-SCORING_VERSION = "aqh-scoring-v3"
+SCORING_VERSION = "aqh-scoring-v5"  # v5: stricter code checks; a v3 PASS is not a v5 PASS (see CHANGELOG.md)
 
 # Scoring v2 verdicts: PASS, FAIL, ERROR. ERROR = the result says nothing about the agent's work
 # (agent-side credit/quota/auth/missing-key failure, or a judge that did not run). ERROR rows are left out

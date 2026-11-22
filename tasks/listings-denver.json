@@ -17,6 +17,28 @@
    "vegan_restaurant",
    "vegetarian_restaurant"
   ],
+  "selection": {
+   "require": [
+    "address"
+   ],
+   "unique_by": [
+    "name",
+    "address"
+   ],
+   "prefer": [
+    {
+     "field": "taxonomy_primary",
+     "order": [
+      "vegan_restaurant",
+      "vegetarian_restaurant"
+     ]
+    },
+    {
+     "field": "confidence",
+     "desc": true
+    }
+   ]
+  },
   "rubric": [
    "Exactly 10 open vegan or vegetarian restaurants from the source",
    "Fields copied exactly; nothing invented",

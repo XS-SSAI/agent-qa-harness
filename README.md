@@ -6,8 +6,9 @@ checks against the source data (receipts), by planted faults the checks must cat
 different model family than the agent (judges). An agent counts as reliable only after it passes every task 3 times
 in a row (pass^3), and even then only for the tasks it was tested on.
 
-The code checks are built to catch invented listings, edited fields, skipped steps, false "done" claims and leaked
-secrets or private paths; each has a planted-fault test in `traps/`. The judges add a second opinion on quality and invented facts (see Limits).
+The code checks are built to catch invented listings, edited or dropped fields, the wrong selection, partial pages,
+contact details that are not in the supplied data, skipped steps, false "done" claims and leaked secrets or private
+paths; each has a planted-fault test in `traps/`. The judges add a second opinion on quality and invented facts (see Limits).
 
 Python 3.11+, standard library only, no dependencies. Apache-2.0.
 
@@ -16,7 +17,7 @@ Python 3.11+, standard library only, no dependencies. Apache-2.0.
 ```bash
 git clone https://github.com/XS-SSAI/agent-qa-harness.git
 cd agent-qa-harness
-python3 -m unittest discover -s tests          # expect "Ran 101 tests" and "OK"
+python3 -m unittest discover -s tests          # expect "Ran 142 tests" and "OK"
 
 # Score a clean saved output: should PASS
 python3 -m aqh score --task tasks/listings-denver.json --file traps/control__listings-denver.json --qa default --out results/quickstart-clean
@@ -83,7 +84,19 @@ class QALayer:
 ```
 
 To test your own work instead of the sample tasks, copy a file in `tasks/`, point it at your own data, site profile
-(`profiles/`) and rules (`rulebooks/example.toml`).
+(`profiles/`) and rules (`rulebooks/example.toml`). The stricter checks are switched on per task, under `expect`:
+
+```json
+"selection": {"require": ["address"], "unique_by": ["name", "address"],
+              "prefer": [{"field": "confidence", "desc": true}, {"field": "name"}]},
+"named_items_strict": true,
+"values_grounded": ["phone", "url"]
+```
+
+`selection` states which records the task says to keep (required fields, what counts as a duplicate, and the ranking,
+best first); a skipped record that ranks above a kept one fails, and tied records are interchangeable.
+`named_items_strict` requires a heading for every verified name. `values_grounded` requires every phone number and
+website in the page body to appear in the task material.
 
 ## What the scores mean
 
@@ -102,15 +115,19 @@ A scorecard cell reads like `PASS (22/22, judge 9.0)`: verdict, checks passed ou
 ## QA layers (`--qa`)
 
 - `default` = **gate** (rulebook-driven: required lines, banned phrases, private paths, secret-shaped values, hidden
-  unicode, repeated topics) + **unconfirmed** (site-profile-first writing and a required "Unconfirmed facts and
-  first-hand input" review block on article tasks) + **grounding** (every listing and field must match the source data;
-  named items must be in the verified list; a "done" claim must match what was delivered).
+  unicode, repeated topics; on city pages also clock times, ratings and prices, which the supplied data does not
+  hold) + **unconfirmed** (site-profile-first writing and a required "Unconfirmed facts and first-hand input" review
+  block on article tasks) + **grounding** (every listing must come from the source and every field must be an exact
+  copy, with nothing dropped or set to null; the kept records must follow the task's selection rule; every verified
+  name needs its heading and no other place may be added; phone numbers and websites on a page must be in the
+  supplied data; a "done" claim must match what was delivered).
 - `+judge`: a model judge from a different family than the agent. `+judge2`, `+judge3`: more judges, each from another
   family. `+factcheck`: Perplexity checks each factual claim on the web.
 
-`traps/` holds synthetic outputs, each with one kind of planted fault (invented listing, changed field, false "done", skipped
-review block, leaked path and key, false fact). Each must FAIL; a PASS means the harness missed it. The false-fact trap
-needs `+factcheck`. The `control__*` files are clean and should PASS.
+`traps/` holds synthetic outputs, each with one kind of planted fault (invented listing, changed field, id-only
+records, nulled fields, wrong selection, partial page, invented contact details and hours, a place added without a
+heading, false "done", skipped review block, leaked path and key, false fact). Each must FAIL; a PASS means the harness
+missed it. The false-fact trap needs `+factcheck`. The `control__*` files are clean and should PASS.
 
 ## Tasks
 
@@ -138,6 +155,8 @@ the same for every agent) and `REVIEW.md` (short samples of each output to read 
 
 ## Limits
 
+- The code checks read structure and exact values. A place or a claim invented in running prose, with no heading,
+  phone number or website of its own, still needs a judge or a human reader.
 - The judges are not validated yet. The best pair of judges agreed on 71% of rows, below the 80% bar, and there is no
   human-labelled reference set yet. Treat judge scores as a second opinion; the code checks are the hard evidence.
 - Agents give different outputs on each run, so one run says little. Use two or more runs, or the pass^3 ladder.
@@ -151,7 +170,9 @@ the same for every agent) and `REVIEW.md` (short samples of each output to read 
 
 No permission-bypass flags on any agent (Cursor and Grok run with `--trust`, which only trusts the temporary workspace
 for headless use). Keys are read from env vars only; the harness does not write or print them, and it hides key values in
-error messages. A spend ledger with a hard cap (`AQH_CAP_USD`, default $5) stops the run. Only send public data to cheap
+error messages. A tested CLI agent does not get the harness's own keys (judges, fact-check, API baselines): each
+adapter keeps only the key its own agent needs, and a custom adapter gets none unless it sets `env_keep`. If an
+agent stops authenticating, allow a key for that run with `AQH_AGENT_ENV_ALLOW=NAME,NAME`. A spend ledger with a hard cap (`AQH_CAP_USD`, default $5) stops the run. Only send public data to cheap
 or free models; they may log it.
 
 ## Commands

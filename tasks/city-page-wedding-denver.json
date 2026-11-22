@@ -15,6 +15,11 @@
  },
  "expect": {
   "allowed_names_from": "reference",
+  "named_items_strict": true,
+  "values_grounded": [
+   "phone",
+   "url"
+  ],
   "rubric": [
    "Only the 10 supplied listings, exact names as ### headings",
    "No invented packages, hours, prices, ratings, capacity or history",

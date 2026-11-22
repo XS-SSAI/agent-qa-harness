@@ -32,6 +32,19 @@ def failed(r):
     return {c["name"] for c in r["checks"] if not c["passed"]}
 
 
+def _running(pid):
+    """True if the process is still running. A killed child that nobody has reaped yet (a zombie, state Z)
+    is not running; os.kill(pid, 0) still succeeds for it in containers and CI runners whose init does not reap orphans."""
+    try:
+        os.kill(pid, 0)
+    except OSError:
+        return False
+    try:
+        return Path(f"/proc/{pid}/stat").read_text().rsplit(")", 1)[1].split()[0] not in ("Z", "X")
+    except (OSError, IndexError):
+        return True  # no /proc (macOS, Windows): the signal check above is the answer
+
+
 class GateTests(unittest.TestCase):
     def names(self, text, kind="article"):
         return {c.name for c in check_text(text, kind, RB) if not c.passed}
@@ -470,12 +483,7 @@ class LockedConfigTests(unittest.TestCase):
                     child = int(Path(pidfile).read_text(encoding="utf-8").strip() or "0")
                     if child:
                         time.sleep(0.2)
-                        try:
-                            os.kill(child, 0)
-                            alive = True
-                        except OSError:
-                            alive = False
-                        self.assertFalse(alive, "child process was still running after timeout")
+                        self.assertFalse(_running(child), "child process was still running after timeout")
             finally:
                 os.environ["PATH"] = old_path
                 if old_t is None:

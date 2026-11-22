@@ -1,0 +1,112 @@
+[
+ {
+  "id": "b45562e5-8eb1-463b-9b0a-d6644f5120ca",
+  "name": "Meta Burger",
+  "address": "7950 E Mississippi Ave",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80247-5100",
+  "phone": null,
+  "website": null,
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "fc12cd24-7669-4ef2-a9a2-06145cc51ebe",
+  "name": "Mora Pizza Denver",
+  "address": "2700 E Colfax Ave",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80206-1426",
+  "phone": null,
+  "website": null,
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "fab13481-663a-4fcc-9126-dee28ddea6fa",
+  "name": "Radha Govinda's",
+  "address": "1400 Cherry St",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80220",
+  "phone": null,
+  "website": null,
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "2cf06db7-951e-43b3-ba66-4db7bb690e8e",
+  "name": "Superfood Bar",
+  "address": "1541 Platte St",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80202-1121",
+  "phone": null,
+  "website": null,
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "7f236256-ad81-4534-8bda-8b396156feb5",
+  "name": "Sweetgreen",
+  "address": "1700 Broadway",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80290",
+  "phone": null,
+  "website": null,
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "b8342838-8bb1-41ba-929e-4542196355ea",
+  "name": "Vegan Thai Co.",
+  "address": "810 Vallejo St",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80204",
+  "phone": null,
+  "website": null,
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "94dc28ae-ff26-4275-9ff1-a56618fa15c3",
+  "name": "The Loyal Vegan",
+  "address": "1312 17th St  # 1064",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80202-1508",
+  "phone": null,
+  "website": null,
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "162f5533-b382-4653-9422-f29b2ad4c22d",
+  "name": "Sos Catering",
+  "address": "3600 E 40th Ave",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80205-3763",
+  "phone": null,
+  "website": null,
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "c3f40822-79c7-4c5c-9e4c-6ca372bfac04",
+  "name": "The Hood Chefs Hide-away",
+  "address": "810 Vallejo St",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80204-3821",
+  "phone": null,
+  "website": null,
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ },
+ {
+  "id": "20aec476-343a-4c97-8ed5-2bc12bd3526e",
+  "name": "City O' City",
+  "address": "206 E 13th Ave",
+  "locality": "Denver",
+  "region": "CO",
+  "postcode": "80203",
+  "phone": null,
+  "website": null,
+  "check_before_publish": "Confirm on the business's own site that the menu is vegan, and check current hours."
+ }
+]
